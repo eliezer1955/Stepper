@@ -1,9 +1,7 @@
 ﻿using CommandMessenger.Transport.Serial;
 using System;
 using System.IO;
-using System.IO.Ports;
 using System.Net.Sockets;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -63,6 +61,30 @@ namespace StepperWF
             return period;
         }
 
+        public Int16 readFlexi( Int16 bank = 1 )
+        {
+            Int32 commandNumber = controller.CommandNumber["GetFlexiForce"];
+            Int16 reslt = 0;
+            Int32 response1 = controller.commandStructure[commandNumber].response;
+            if (response1 < 0) response1 = commandNumber; //use default response
+            Int32 parametersRequired = controller.commandStructure[commandNumber].parameters.Length;
+            CommandMessenger.SendCommand cmd = new CommandMessenger.SendCommand( commandNumber, response1,
+                                                                                 controller.commandStructure[commandNumber].timeout );
+            cmd.AddArgument( bank );
+            cmd.ReqAc = true;
+            if (cmd.Ok)
+            {
+                CommandMessenger.ReceivedCommand responseCmd = controller._cmdMessenger.SendCommand( cmd );
+                string response = responseCmd.RawString;
+                string[] line1 = response.Split( ',' );
+                line1 = line1[2].Split( ';' );
+                response = line1[0];
+                reslt = Int16.Parse( response );
+            }
+
+            return reslt;
+        }
+
         public Int16 readSwitch( Int16 bank = 1 )
         {
             Int32 commandNumber = controller.CommandNumber["GetSwitchSet"];
@@ -83,6 +105,7 @@ namespace StepperWF
                 response = line1[0];
                 reslt = Int16.Parse( response );
             }
+
             return reslt;
         }
         public void selectAxis( Int32 axis )
@@ -106,14 +129,21 @@ namespace StepperWF
             Int16 microSwitches = readSwitch( 1 );
             //selectAxis( 2 );
             Int16 optical = readSwitch( 2 );
+            int forceLeft = readFlexi( 1 );
+            int forceRight = readFlexi( 2 );
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox3, "Checked", (microSwitches & (short)0x01) != 0 );
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox6, "Checked", (microSwitches & (short)0x02) != 0 );
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox1, "Checked", (optical & (short)0x01) != 0 );
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox2, "Checked", (optical & (short)0x04) != 0 );
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox5, "Checked", (optical & (short)0x08) != 0 );
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox4, "Checked", (optical & (short)0x02) != 0 );
+            forceLeft = 50 + forceLeft / 2; //empirical scaling
+            forceRight = 50 + forceRight / 2;
+            forceLeft = Math.Min( Math.Max( forceLeft, 0 ), 100 );
+            forceRight = Math.Min( Math.Max( forceRight, 0 ), 100 );
+            controller.SetControlPropertyThreadSafe( controller.parent.forceLeft, "Value", forceLeft );
+            controller.SetControlPropertyThreadSafe( controller.parent.forceRight, "Value", forceRight );
         }
-
         public async void RunMacro()
         {
             //  Read in macro stream
@@ -124,14 +154,14 @@ namespace StepperWF
             while (true)
             {
                 line = await readLine();
-                
+
                 if (line == null) break;
                 if (line.StartsWith( "\0" )) continue;
-                if (line.StartsWith( "#" ))continue;
-                if (string.IsNullOrEmpty(line)) continue;
-                if(string.IsNullOrWhiteSpace( line )) continue; 
+                if (line.StartsWith( "#" )) continue;
+                if (string.IsNullOrEmpty( line )) continue;
+                if (string.IsNullOrWhiteSpace( line )) continue;
 
-                 Console.WriteLine( "Read line:{0}", line );
+                Console.WriteLine( "Read line:{0}", line );
                 // "Nested" macro calling
                 if (line.StartsWith( "@" ))
                 {
