@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WhPnx9Wkp8kRhgyMONGIJNXD6QE+IJVKDs+6kVwb7EUGffxPFesUb8fSeaAceLELN/GP+26D9AKYgNWiaCLbdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rosengau\\source\\repos\\StepperWF1\\StepperWF\\StepperWF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rosengau\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

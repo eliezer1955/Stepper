@@ -76,6 +76,7 @@
     <Compile Include="Command.cs" />
     <Compile Include="CommandEventArgs.cs" />
     <Compile Include="CommunicationManager.cs" />
+    <Compile Include="ComPortMap.cs" />
     <Compile Include="ConnectionManager.cs" />
     <Compile Include="Escaped.cs" />
     <Compile Include="EventWaiter.cs" />
@@ -149,6 +150,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="stepper.tst.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.3</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -128,10 +128,13 @@ namespace StepperWF
         {
             if (_serialTransport != null)
                 return _serialTransport;
+            //get name of comport associated to Stepper (as obtained by Listports.py)
+            ComPortMap map = new ComPortMap();
+            var comport = map.GetComPort( "Stepper" );
             // Create Serial Port object
             _serialTransport = new SerialTransport
             {
-                CurrentSerialSettings = { PortName = "COM85", BaudRate = 115200, Timeout = -1 } // object initializer
+                CurrentSerialSettings = { PortName = comport, BaudRate = 115200, Timeout = -1 } // object initializer
             };
 
             // Initialize the command messenger with the Serial Port transport layer
