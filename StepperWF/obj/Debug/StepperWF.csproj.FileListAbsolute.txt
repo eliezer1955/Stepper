@@ -21,3 +21,16 @@ C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.pdb
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\bin\Debug\Newtonsoft.Json.dll
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CopyComplete
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.AssemblyReference.cache
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\StepperWF.exe.config
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\StepperWF.exe
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\StepperWF.pdb
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.AssemblyReference.cache
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.SuggestedBindingRedirects.cache
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.Form1.resources
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.Properties.Resources.resources
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.GenerateResource.cache
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CoreCompileInputs.cache
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CopyComplete
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.exe
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.pdb
