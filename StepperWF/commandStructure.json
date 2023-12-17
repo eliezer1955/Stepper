@@ -1,0 +1,554 @@
+[
+  {
+    "name": "Acknowledge",
+    "description": " //0  Command to acknowledge that cmd was received",
+    "parameters": "",
+    "returns": "i",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "Error",
+    "description": "1  Command to report errors",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "FloatAddition",
+    "description": "2  Command to request add two floats",
+    "parameters": "ff",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "FloatAdditionResult",
+    "description": "3  Command to report addition result",
+    "parameters": "",
+    "returns": "f",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetFwVerNum",
+    "description": "4  Command to get firmware version as a float",
+    "parameters": "",
+    "returns": "f",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetFwVerStr",
+    "description": "5  Command to get firmware version as a string",
+    "parameters": "",
+    "returns": "s",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "MoveToPosition",
+    "description": "6  Command to move current motor to absolute target position",
+    "parameters": "l",
+    "returns": "",
+    "timeout": 1000,
+    "response": 7
+  },
+  {
+    "name": "GetCurrentMotorStatus",
+    "description": "7  Command to get current motor status",
+    "parameters": "",
+    "returns": "ii",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "CurrentMotorStop",
+    "description": "8  Command to stop current motor move",
+    "parameters": "",
+    "returns": "i",
+    "timeout": 1000,
+    "response": 7
+  },
+  {
+    "name": "AwaitCurrentMotorMoveDone",
+    "description": "9  Command to await motor move completion",
+    "parameters": "",
+    "returns": "i",
+    "timeout": 100000,
+    "response": 7
+  },
+  {
+    "name": "InitializeAxis",
+    "description": "10 Command to init current axis using optical switch",
+    "parameters": "",
+    "returns": "fff",
+    "timeout": 100000,
+    "response": 7
+  },
+  {
+    "name": "SetMovePolarity",
+    "description": "11 Command to set move polarity; false is clockwise positive, reversed (true) is ccw positive",
+    "parameters": "b",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "MoveRelative",
+    "description": "12 Command to move motor to relative target position",
+    "parameters": "l",
+    "returns": "",
+    "timeout": 1000,
+    "response": 7
+  },
+  {
+    "name": "GetPosition",
+    "description": "13 Command to get current motor position",
+    "parameters": "",
+    "returns": "l",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetMaxTravel",
+    "description": "14 Command to set max travel distance",
+    "parameters": "l",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetMaxSpeed",
+    "description": "15 Command to set max motor speed",
+    "parameters": "l",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetCurrentScaling",
+    "description": "16 Command to set motor current scaling (% of max current) -- added in V1.0.1",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetCurrentAxis",
+    "description": "17 Command to set current axis (defaults to 1) -- added in V1.0.2",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "MultiMoveToPosition",
+    "description": "18 Command to move multiple motors to absolute target position -- added in V1.0.3",
+    "parameters": "llll",
+    "returns": "",
+    "timeout": 1000,
+    "response": 7
+  },
+  {
+    "name": "MultiMoveRelative",
+    "description": "19 Command to move multiple motors to relative target position -- added in V1.0.4",
+    "parameters": "llll",
+    "returns": "i",
+    "timeout": 1000,
+    "response": 7
+  },
+  {
+    "name": "SetAcceleration",
+    "description": "20 Command to set acceleration value in steps/sec/sec (default is 50,000)",
+    "parameters": "l",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "MoveContinuous",
+    "description": "21 Command to rotate until stopped",
+    "parameters": "b",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "ResetPosition",
+    "description": "22 Command to reset the current motor position to zero",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetMaxHomeSearchMove",
+    "description": "23 Command to set max search distance for home",
+    "parameters": "l",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetHomingSpeed",
+    "description": "24 Command to set homing speed",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetHomeFlagState",
+    "description": "25 Command to get home flag state for current axis",
+    "parameters": "",
+    "returns": "i",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetLastInitPosition",
+    "description": "26 Command to get last axis init position",
+    "parameters": "",
+    "returns": "l",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetMotorEnabledState",
+    "description": "27 Command to set flag specifying whether motor is enabled",
+    "parameters": "ib",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "LEDsOff",
+    "description": "28 Command to set color of all NeoPixels to Off",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "LEDsIdle",
+    "description": "29 Command to set color of all NeoPixels to Blue",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "LEDsRun",
+    "description": "30 Command to send green Wipe pattern to NeoPixels",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "LEDsError",
+    "description": "31 Command to send red Flash pattern to NeoPixels",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetADCRawVoltage",
+    "description": "32 Command to get ADC value in unscaled units -- added in V1.0.18",
+    "parameters": "",
+    "returns": "f",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetOutHigh",
+    "description": "33 Command to set an output pin high",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetOutLow",
+    "description": "34 Command to set an output pin low",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetLimitSwitchPolarity",
+    "description": "35 Command to set polarity of switches used; T=default (false if blocked)",
+    "parameters": "b",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetCurrentLimitSwitch",
+    "description": "36 Command to set currently active limit switch (it is auto-set on axis change)",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "HInitializeXY",
+    "description": "37 Command to init X axis of H-Bot using optical switch",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": 7
+  },
+  {
+    "name": "HMoveRelative",
+    "description": "38 Command to move X,Y of H-Bot to relative target position",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": 7
+  },
+  {
+    "name": "HMoveToPosition",
+    "description": "39 Command to move X,Y of H-Bot to absolute target position; 3 params (1st param is 1, 2, 3 for X, Y, Both)",
+    "parameters": "ill",
+    "returns": "",
+    "timeout": 10000,
+    "response": 7
+  },
+  {
+    "name": "HGetXY",
+    "description": "40 Command to get X,Y coordinate of H-Bot",
+    "parameters": "",
+    "returns": "ii",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetDebugStr",
+    "description": "41 Command to get Debug string",
+    "parameters": "",
+    "returns": "s",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "HMoveDoneMssg",
+    "description": "42 Message to communicate that an H-move is complete: HInitializeXY, HMoveRelative, HMoveToPosition",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetHoldCurrentScaling",
+    "description": "43 for compatibility with L6470 firmware",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetMicroStepModeL6470",
+    "description": "44 for compatibility with L6470 firmware",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "LEDsSetColor",
+    "description": "45 Command to set color of each NeoPixel (3)",
+    "parameters": "iii",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "EnableEOT",
+    "description": "46 Command to enable all EOT sensors to stop motion on change",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "DisableEOT",
+    "description": "47 Command to disable all EOT sensors to stop motion on change",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "Set2209StallThresh",
+    "description": "48 Command to set TMC2209 stall threshold value",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "Set2209MotorCurrent",
+    "description": "49 Command to set TMC2209 motor current in mA",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "Set2209MicroStepMode",
+    "description": "50 Command to set TMC2209 microstep mode -- param is 2,4,8,16,...,256",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "StopOn2209Stall",
+    "description": "51 Command to set TMC2209 to stop when threshold exceeded -- param T|F",
+    "parameters": "b",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "Init2209",
+    "description": "52 Command to initialize the TMC2209",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SensorOverride",
+    "description": "53 Command to stop on any of the 8 sensors",
+    "parameters": "ib",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SensorPolarity",
+    "description": "54 Command to set polarity of any of the 8 sensors",
+    "parameters": "ib",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetSensorState",
+    "description": "55 Command to get state of any of the 8 sensors",
+    "parameters": "i",
+    "returns": "b",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "SetFlexiForceStallThresh",
+    "description": "56 Command to set FlexiForce stall threshold value for current motor",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "StopOnFlexiForceStall",
+    "description": "57 Command to set current motor to stop when FlexiForce threshold exceeded -- param T|F",
+    "parameters": "b",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetFlexiForce",
+    "description": "58 Command to get last value of FlexiForce Sensor specified in the param (1 or 2)",
+    "parameters": "i",
+    "returns": "i",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetSwitchSet",
+    "description": "59 Command to get last value of Switch Block specified in the param (1 or 2 -- 1=microswitches, 2=optoswitches)",
+    "parameters": "i",
+    "returns": "u",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "StreamFlexiForceDebug",
+    "description": "60 Command to stream FlexiForce debug data -- param T|F",
+    "parameters": "b",
+    "returns": "s",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "StreamSwitchSetDebug",
+    "description": "61 Command to stream Switch settings (debug); Switch Block specified in the param (1 or 2 -- 1=microswitches, 2=optoswitches)",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "CallbacksForSwitchChanges",
+    "description": "62 Command to enable or disable callbacks on Switch Changes",
+    "parameters": "",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "LEDsSetPattern",
+    "description": "63 Command to set color and pattern of each NeoPixel (3) -- added V1.26",
+    "parameters": "iii",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "LEDsSetBrightness",
+    "description": "64 Command to set brightness of NeoPixels (3) -- added V1.26",
+    "parameters": "i",
+    "returns": "",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetReflectiveSensorValue",
+    "description": "65 Command to get last value of Reflective Sensor specified in the param (1 or 2)",
+    "parameters": "i",
+    "returns": "i",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "StreamReflectiveValues",
+    "description": "66 Command to stream Reflective debug data -- param T|F",
+    "parameters": "b",
+    "returns": "s",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "GetLightSensorValue",
+    "description": "67 Command to get last value of Light Sensor specified in the param (1 or 2)",
+    "parameters": "i",
+    "returns": "i",
+    "timeout": 1000,
+    "response": -1
+  },
+  {
+    "name": "StreamLightValues",
+    "description": "68 Command to stream Light debug data -- param T|F",
+    "parameters": "b",
+    "returns": "s",
+    "timeout": 1000,
+    "response": -1
+  }
+]
