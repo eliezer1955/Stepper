@@ -45,6 +45,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.forceLeft = new System.Windows.Forms.ProgressBar();
             this.forceRight = new System.Windows.Forms.ProgressBar();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -226,11 +227,23 @@
             this.forceRight.Size = new System.Drawing.Size(188, 23);
             this.forceRight.TabIndex = 17;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(237, 42);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(277, 13);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "                                                                                 " +
+    "         ";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(972, 450);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.forceRight);
             this.Controls.Add(this.forceLeft);
             this.Controls.Add(this.label6);
@@ -275,6 +288,7 @@
         private System.Windows.Forms.Label label6;
         public System.Windows.Forms.ProgressBar forceLeft;
         public System.Windows.Forms.ProgressBar forceRight;
+        public System.Windows.Forms.Label label7;
     }
 }
 

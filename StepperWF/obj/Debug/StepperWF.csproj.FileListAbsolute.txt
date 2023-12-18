@@ -20,3 +20,4 @@ C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.exe
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.pdb
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\bin\Debug\Newtonsoft.Json.dll
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CopyComplete
+C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.AssemblyReference.cache

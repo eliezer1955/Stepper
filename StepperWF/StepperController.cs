@@ -1,8 +1,10 @@
 ﻿using CommandMessenger;
 using CommandMessenger.Transport.Serial;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.IO;
 using System.IO.Ports;
 using System.Net;
 using System.Net.Sockets;
@@ -11,6 +13,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.LinkLabel;
 
 namespace StepperWF
 {
@@ -120,7 +123,24 @@ namespace StepperWF
             }
             CurrentMacro = runthis;
             _serialTransport = Setup();
-
+            /* Write CommandStructure
+            string json=Newtonsoft.Json.JsonConvert.SerializeObject( commandStructure, Formatting.Indented );
+            string docPath = Environment.GetFolderPath( Environment.SpecialFolder.MyDocuments );
+            using (StreamWriter outputFile = new StreamWriter( Path.Combine( docPath, "commandStructure.txt" ) ))
+            {
+                foreach (string line in json.Split('\n'))
+                {
+                    outputFile.WriteLine( line );
+                }
+            
+            }
+            */
+            /*Read commandStructure
+            string docPath = Environment.GetFolderPath( Environment.SpecialFolder.MyDocuments );
+            string json=System.IO.File.ReadAllText( @Path.Combine( docPath, "commandStructure.txt" ) );
+            CommandStructure[] loaded = new CommandStructure[] { };
+            loaded= (CommandStructure[])Newtonsoft.Json.JsonConvert.DeserializeObject( json );
+            */
         }
 
 

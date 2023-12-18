@@ -26,6 +26,7 @@ namespace StepperWF
             pipeClient = pipeClientin;
             controller = sc;
             socketMode = (CurrentMacro == null);
+            GetVersion();
             if (CurrentMacro != null)
                 fs = new StreamReader( CurrentMacro );
         }
@@ -61,7 +62,16 @@ namespace StepperWF
             return period;
         }
 
-        public Int16 readFlexi( Int16 bank = 1 )
+        public void GetVersion()
+        {
+            Int32 commandNumber = this.controller.CommandNumber["GetFwVerStr"];
+            CommandMessenger.SendCommand cmd = new CommandMessenger.SendCommand( commandNumber);
+            CommandMessenger.ReceivedCommand responseCmd = this.controller._cmdMessenger.SendCommand( cmd );
+            string response = responseCmd.RawString;
+            this.controller.SetControlPropertyThreadSafe( controller.parent.label7, "Text", response );
+        }
+
+            public Int16 readFlexi( Int16 bank = 1 )
         {
             Int32 commandNumber = controller.CommandNumber["GetFlexiForce"];
             Int16 reslt = 0;
