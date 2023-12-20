@@ -142,6 +142,8 @@ namespace StepperWF
             Int16 optical = readSwitch(2);
             float forceLeft = readFlexi(1);
             float forceRight = readFlexi(2);
+            controller.parent.textBox1.Text = forceLeft.ToString();
+            controller.parent.textBox2.Text = forceRight.ToString();
             controller.SetControlPropertyThreadSafe(controller.parent.checkBox3, "Checked", (microSwitches & (short)0x01) != 0);
             controller.SetControlPropertyThreadSafe(controller.parent.checkBox6, "Checked", (microSwitches & (short)0x02) != 0);
             controller.SetControlPropertyThreadSafe(controller.parent.checkBox1, "Checked", (optical & (short)0x01) != 0);
@@ -156,6 +158,7 @@ namespace StepperWF
             //controller.SetControlPropertyThreadSafe( controller.parent.forceRight, "Value", Math.Round(forceRight,0) );
             controller.parent.forceLeft.Value = (int)Math.Round(forceLeft, 0);
             controller.parent.forceRight.Value = (int)Math.Round(forceRight, 0);
+
         }
         public async void RunMacro()
         {

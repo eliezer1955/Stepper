@@ -46,6 +46,8 @@
             this.forceLeft = new System.Windows.Forms.ProgressBar();
             this.forceRight = new System.Windows.Forms.ProgressBar();
             this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -216,7 +218,7 @@
             // forceLeft
             // 
             this.forceLeft.Location = new System.Drawing.Point(292, 604);
-            this.forceLeft.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.forceLeft.Margin = new System.Windows.Forms.Padding(6);
             this.forceLeft.Name = "forceLeft";
             this.forceLeft.Size = new System.Drawing.Size(376, 44);
             this.forceLeft.TabIndex = 16;
@@ -225,7 +227,7 @@
             // forceRight
             // 
             this.forceRight.Location = new System.Drawing.Point(802, 604);
-            this.forceRight.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.forceRight.Margin = new System.Windows.Forms.Padding(6);
             this.forceRight.Name = "forceRight";
             this.forceRight.Size = new System.Drawing.Size(376, 44);
             this.forceRight.TabIndex = 17;
@@ -242,11 +244,29 @@
     "         ";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(427, 648);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 31);
+            this.textBox1.TabIndex = 19;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(929, 648);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 31);
+            this.textBox2.TabIndex = 20;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1944, 865);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.forceRight);
             this.Controls.Add(this.forceLeft);
@@ -265,7 +285,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Stepper Controller";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -294,6 +314,8 @@
         public System.Windows.Forms.ProgressBar forceLeft;
         public System.Windows.Forms.ProgressBar forceRight;
         public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox textBox2;
     }
 }
 
