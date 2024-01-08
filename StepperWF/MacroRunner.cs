@@ -10,6 +10,7 @@ namespace StepperWF
 {
     public class MacroRunner
     {
+        private static readonly log4net.ILog _logger = log4net.LogManager.GetLogger(typeof(MacroRunner));
         public string CurrentMacro;
         public SerialTransport serialPort;
         StreamReader fs = null;

@@ -34,3 +34,5 @@ C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CoreCom
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CopyComplete
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.exe
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.pdb
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.config
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.dll

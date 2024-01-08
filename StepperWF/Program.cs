@@ -5,6 +5,8 @@ namespace StepperWF
 {
     internal static class Program
     {
+        private static readonly log4net.ILog _logger = log4net.LogManager.GetLogger(typeof(Program));
+
         static Form1 myform;
         /// <summary>
         /// The main entry point for the application.
@@ -12,6 +14,7 @@ namespace StepperWF
         [STAThread]
         static void Main( string[] args)
         {
+            _logger.Info("StepperDiag  is starting...");
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
