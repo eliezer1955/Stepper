@@ -165,6 +165,7 @@ namespace StepperWF
         {
             //  Read in macro stream
             string[] lastCommand;
+            string response = "";
             string lastCommandReturnTypes;
             byte[] b = new byte[1024];
             string line;
@@ -179,6 +180,62 @@ namespace StepperWF
                 if (string.IsNullOrWhiteSpace(line)) continue;
 
                 Console.WriteLine("Read line:{0}", line);
+                if (line.StartsWith("IFRETURNISNOT")) //conditional execution based on last return
+                {
+                    string value = "";
+                    string[] line1 = line.Split('#'); //Disregard comments
+                    string[] parsedLine = line1[0].Split(',');
+                    if (string.IsNullOrWhiteSpace(parsedLine[0])) //Disregard blanks lines
+                        continue;
+                    if (parsedLine[1] != null)
+                        value = parsedLine[1]; //isolate target value
+
+                    if (value == response) //last return matches value
+                        continue; //do nothing, go to read next command
+                    //value is not equal to last response, execute conditional command
+                    line = ""; //reassemble rest of conditional command
+                    for (int i = 2; i < parsedLine.Length; i++)
+                    {
+                        line += parsedLine[i];
+                        if (i < parsedLine.Length - 1) line += ",";
+                    }
+                    //coninue execution as if it was non-conditional
+                }
+                if (line.StartsWith("IFRETURNIS")) //conditional execution based on last return
+                {
+                    string value = "";
+                    string[] line1 = line.Split('#'); //Disregard comments
+                    string[] parsedLine = line1[0].Split(',');
+                    if (string.IsNullOrWhiteSpace(parsedLine[0])) //Disregard blanks lines
+                        continue;
+                    if (parsedLine[1] != null)
+                        value = parsedLine[1]; //isolate target value
+
+                    if (value != response) //last return does not match value
+                        continue; //do nothing, go to read next command
+                    //value is equal to last response
+                    line = ""; //reassemble rest of command
+                    for (int i = 2; i < parsedLine.Length; i++)
+                    {
+                        line += parsedLine[i];
+                        if (i < parsedLine.Length - 1) line += ",";
+                    }
+                    //coninue execution as if it was non-conditional
+                }
+                if (line.StartsWith("LOGERROR")) //write log entry
+                {
+                    string value = "";
+                    string[] line1 = line.Split('#'); //Disregard comments
+                    string[] parsedLine = line1[0].Split(',');
+                    if (string.IsNullOrWhiteSpace(parsedLine[0])) //Disregard blanks lines
+                        continue;
+                    if (parsedLine[1] != null)
+                        value = parsedLine[1];
+
+                    _logger.Error(value);
+                    continue;
+                }
+
                 // "Nested" macro calling
                 if (line.StartsWith("@"))
                 {
@@ -256,6 +313,7 @@ namespace StepperWF
                         MessageBoxButtons buttons = MessageBoxButtons.YesNo;
                         DialogResult result;
                         result = MessageBox.Show(parsedLine[1], "Stepper Alert!", buttons);
+                        response = result.ToString();
                         continue;
                     }
                 }

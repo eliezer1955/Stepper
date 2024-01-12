@@ -1,10 +1,12 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace StepperWF
 {
     internal static class Program
     {
+
         private static readonly log4net.ILog _logger = log4net.LogManager.GetLogger(typeof(Program));
 
         static Form1 myform;
@@ -14,6 +16,8 @@ namespace StepperWF
         [STAThread]
         static void Main( string[] args)
         {
+            var configFile = new FileInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log4net.config"));
+            log4net.Config.XmlConfigurator.Configure(configFile);
             _logger.Info("StepperDiag  is starting...");
 
             Application.EnableVisualStyles();
