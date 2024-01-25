@@ -1,13 +1,13 @@
 ﻿using CommandMessenger.Transport.Serial;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.IO;
 using System.Net.Sockets;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
+using System.Text;
 
 namespace StepperWF
 {
@@ -24,40 +24,46 @@ namespace StepperWF
         private string[] Macro;
         private int currentline = 0;
         private System.Collections.Generic.Dictionary<string, int> label = new System.Collections.Generic.Dictionary<string, int>();
-        private String forceLeftString, forceRightString, opticalString, microSwitchString;
-        private String response;
         private Dictionary<string, string> variables = new Dictionary<string, string>();
-        private string cannulaLeft, cannulaRight, carriageLeft, carriageRight, doorLeft, doorRight;
+        private string forceLeftString, forceRightString;
+        private string opticalString, microSwitchesString;
 
-        private string ExpandVariables( string instring )
+        public string ExpandVariables( string instring )
         {
             StringBuilder sb = new StringBuilder();
             int start = 0;
-            int i;
-            string val = "";
-            for (i = start ; i < instring.Length ; i++)
-                if (instring[i] == '%')
-                    for (int j = 1 ; j < instring.Length - i ; i++)
-                        if (instring[i + j] == '%')
+            for (int i = 0 ; i < instring.Length ; i++)
+            {
+                    if (instring[i] == '%')
+                    {
+                        for (int j = i ; j < instring.Length - i ; j++)
                         {
-                            sb.Append( instring.Substring( start, i - start ) );
-                            bool ok = variables.TryGetValue( instring.Substring( i + 1, i + j - 1 ), out val );
-                            if (ok)
+                            if (instring[i + j] == '%')
                             {
-                                sb.Append( val );
+                                sb.Append( instring.Substring( start, i - 1 ) );
+                                string v = "";
+                                bool ok = variables.TryGetValue( instring.Substring( i + 1, j - 1 ), out v );
+                                if (ok)
+                                    sb.Append( v ); //replace variable by its expansion
+                                else
+                                    _logger.Error( "Unknown variable: " + instring.Substring( i + 1, j - 1 ) );
                                 start = i = i + j + 1;
                             }
-                            else _logger.Error( "Unknown variable:" + val );
-                            break;
+                            else
+                            {
+                                if (i + j == instring.Length)
+                                    _logger.Error( "Invalid variable syntax: " + instring );
+                            }
                         }
-            if(i-start>0)
-                sb.Append(instring.Substring(start, i-start));
+                    }
+                if (i - start > 0)
+                    sb.Append( instring.Substring( start, i - start ) );
+            }
             return sb.ToString();
         }
 
-        private string Evaluate( string instring )
+        public string Evaluate( string instring ) //evaluate expression
         {
-            instring = ExpandVariables( instring );
             DataTable dt = new DataTable();
             var v = dt.Compute( instring, "" );
             return v.ToString();
@@ -65,12 +71,14 @@ namespace StepperWF
 
         public MacroRunner( StepperController sc, PipeClient pipeClientin, string filename = null )
         {
+
             //System.Diagnostics.Debugger.Launch();
             serialPort = sc._serialTransport;
             CurrentMacro = filename;
             pipeClient = pipeClientin;
             controller = sc;
             socketMode = (CurrentMacro == null);
+            string response = "";
             //GetVersion();
             int currentline = 0;
             if (CurrentMacro != null)
@@ -88,17 +96,10 @@ namespace StepperWF
                 }
             }
             variables.Add( "response", response );
-            variables.Add( "forceLeftString", forceLeftString );
-            variables.Add( "forceLeftString", forceRightString );
-            variables.Add( "opticalString", opticalString );
-            variables.Add( "microSwitchString", microSwitchString );
-            variables.Add( "doorLeft", doorLeft );
-            variables.Add( "doorRight", doorRight );
-            variables.Add( "cannulaLeft", cannulaLeft );
-            variables.Add( "cannulaRight", cannulaRight );
-            variables.Add( "carriageLeft", carriageLeft );
-            variables.Add( "carriageRight", carriageRight );
-
+            variables.Add( "microSwitches", microSwitchesString );
+            variables.Add( "optical", opticalString );
+            variables.Add( "forceLeft", forceLeftString );
+            variables.Add( "forceRight", forceRightString );
 
         }
 
@@ -205,7 +206,7 @@ namespace StepperWF
             }
         }
 
-        public void readSwitches()
+        public string readSwitches()
         {
             //selectAxis( 1 );
             Int16 microSwitches = readSwitch( 1 );
@@ -213,18 +214,8 @@ namespace StepperWF
             Int16 optical = readSwitch( 2 );
             float forceLeft = readFlexi( 1 );
             float forceRight = readFlexi( 2 );
-            forceLeftString = forceLeft.ToString();
-            forceRightString = forceRight.ToString();
-            opticalString = optical.ToString();
-            microSwitchString = microSwitches.ToString();
             controller.parent.textBox1.Text = forceLeft.ToString();
             controller.parent.textBox2.Text = forceRight.ToString();
-            cannulaLeft = ((microSwitches & (short)0x01) != 0).ToString();
-            cannulaRight = ((microSwitches & (short)0x02) != 0).ToString();
-            doorLeft = ((optical & (short)0x01) != 0).ToString();
-            doorRight = ((optical & (short)0x04) != 0).ToString();
-            carriageLeft = ((optical & (short)0x08) != 0).ToString();
-            carriageRight = ((optical & (short)0x02) != 0).ToString();
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox3, "Checked", (microSwitches & (short)0x01) != 0 );
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox6, "Checked", (microSwitches & (short)0x02) != 0 );
             controller.SetControlPropertyThreadSafe( controller.parent.checkBox1, "Checked", (optical & (short)0x01) != 0 );
@@ -239,8 +230,10 @@ namespace StepperWF
             //controller.SetControlPropertyThreadSafe( controller.parent.forceRight, "Value", Math.Round(forceRight,0) );
             controller.parent.forceLeft.Value = (int)Math.Round( forceLeft, 0 );
             controller.parent.forceRight.Value = (int)Math.Round( forceRight, 0 );
+            return (optical.ToString() + ";" + microSwitches.ToString() + ";" + forceLeft.ToString() + ";" + forceRight.ToString());
 
         }
+
         public async void RunMacro()
         {
             //  Read in macro stream
@@ -303,7 +296,7 @@ namespace StepperWF
                     }
                     //continue execution as if it was non-conditional
                 }
-                if (line.StartsWith( "EVALUATE" )) //Set response to evaluation of expression
+                if (line.StartsWith( "EVALUATE" )) //evaluate expression
                 {
                     string value = "";
                     string[] line1 = line.Split( '#' ); //Disregard comments
@@ -311,11 +304,26 @@ namespace StepperWF
                     if (string.IsNullOrWhiteSpace( parsedLine[0] )) //Disregard blanks lines
                         continue;
                     if (parsedLine[1] != null)
-                        value = parsedLine[1]; //isolate target value
-
-                    response = Evaluate( parsedLine[1] );
+                        value = parsedLine[1];
+                    response=ExpandVariables(value);
                     break;
-                    
+                }
+                if (line.StartsWith( "SET" )) //set value of global var; create it if needed
+                {
+                    string variable = "";
+                    string value = "";
+                    string[] line1 = line.Split( '#' ); //Disregard comments
+                    string[] parsedLine = line1[0].Split( ',' );
+                    if (string.IsNullOrWhiteSpace( parsedLine[0] )) //Disregard blanks lines
+                        continue;
+                    if (parsedLine[1] != null)
+                        variable = parsedLine[1];
+                    if (parsedLine[2] != null)
+                        value = Evaluate(parsedLine[1]);
+                    if (!variables.ContainsKey( variable ))
+                        variables.Add( variable, "" );
+                    variables[variable] = value;                    
+                    break;
                 }
                 if (line.StartsWith( "LOGERROR" )) //write log entry
                 {
@@ -401,7 +409,7 @@ namespace StepperWF
                 {
                     string[] line1 = line.Split( '#' ); //Disregard comments
                     string[] parsedLine = line1[0].Split( ',' );
-                    readSwitches();
+                    response = readSwitches();
                     continue;
                 }
 
