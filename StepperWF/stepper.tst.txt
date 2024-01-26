@@ -9,9 +9,63 @@ SetMaxHomeSearchMove,300000
 SetMaxTravel,300000
 SetHomingSpeed,20000
 InitializeAxis
+WAIT,1
+SetCurrentAxis,2
+SetMovePolarity,False
+Set2209MicroStepMode,8
+Set2209MotorCurrent,1000
+SetMaxSpeed,20000
+SetMaxHomeSearchMove,300000
+SetMaxTravel,300000
+SetHomingSpeed,20000
+InitializeAxis
+WAIT,2
 #InitializeAxis
+SetCurrentAxis,1
 GetCurrentMotorStatus
 SLEEP,5000
 GetCurrentMotorStatus
-MoveToPosition,120000
+#MoveToPosition,120000
+#MONITORSWITCHES,60000
+LOGERROR,Starting stamp test
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 20000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 40000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 60000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 80000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 100000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 120000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 140000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 160000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 180000 Force = %forceLeft%
+MoveRelative,20000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 200000 Force = %forceLeft%
 MONITORSWITCHES,60000
