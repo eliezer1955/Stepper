@@ -82,7 +82,7 @@ namespace StepperWF
                             else _logger.Error("Unknown variable:" + val);
                             continue;
                         }
-            if ((i - start > 0) && (i < instring.Length))
+            if ((i - start > 0) && (start < instring.Length))
                 sb.Append(instring.Substring(start, i - start));
             return sb.ToString();
         }

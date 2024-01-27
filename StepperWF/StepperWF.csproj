@@ -154,6 +154,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\stepper.tst.txt" />
+    <Content Include="PlotStampTest.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="stamp.tst.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="stepper.tst.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="log4net">
