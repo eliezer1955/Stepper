@@ -48,11 +48,83 @@ MoveRelative,20000
 WAIT,1
 READSWITCHES
 LOGERROR,Position= 100000 Force = %forceLeft%
-MoveRelative,20000
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 102000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 104000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 106000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 108000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 110000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 112000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 114000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 116000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 118000 Force = %forceLeft%
+MoveRelative,2000
 WAIT,1
 READSWITCHES
 LOGERROR,Position= 120000 Force = %forceLeft%
-MoveRelative,20000
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 122000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 124000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 126000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 128000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 130000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 132000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 134000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 136000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 138000 Force = %forceLeft%
+MoveRelative,2000
 WAIT,1
 READSWITCHES
 LOGERROR,Position= 140000 Force = %forceLeft%
@@ -68,4 +140,6 @@ MoveRelative,20000
 WAIT,1
 READSWITCHES
 LOGERROR,Position= 200000 Force = %forceLeft%
+EXECUTE,python PlotStampTest.py
+MoveRelative,-100000
 MONITORSWITCHES,60000

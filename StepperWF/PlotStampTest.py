@@ -14,7 +14,7 @@ def myfloat(s):
 
 
 #load diag log into memory
-file_path='bin\debug\diags.log'
+file_path='diags.log'
 with open(file_path, 'r') as file:
     file_contents = file.readlines()
 #scan file for last stamp test occurrence
@@ -48,7 +48,7 @@ for i in range(startline+1,len(file_contents)):
     force=myfloat(file_contents[i][index1+len(tgt2):])
     x.append(position)
     y.append(force)
-#convert lists into mumpy arrays
+#convert lists into numpy arrays
 x=np.array(x)
 y=np.array(y)
 #generate plot

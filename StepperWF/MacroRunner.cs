@@ -402,7 +402,8 @@ namespace StepperWF
                         continue;
                     if (parsedLine[1] != null)
                         value = parsedLine[1];
-                    System.Diagnostics.Process.Start("CMD.exe", "/C" + value);
+                    System.Diagnostics.Process.Start("CMD.exe", "/C " + value);
+                    continue;
                 }
 
                 if (line.StartsWith("LOGERROR")) //write log entry
