@@ -1,4 +1,7 @@
 GetFwVerStr
+READSWITCHES
+IFRETURNISNOT,%cannulaLeft%,true,ALERT,Left cannula not engaged; please correct
+IFRETURNISNOT,%carriageLeft%,true,ALERT,Left carriage not engaged; please correct
 Init2209
 SetCurrentAxis,1
 SetMovePolarity,False

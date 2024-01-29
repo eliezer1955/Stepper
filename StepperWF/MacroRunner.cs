@@ -161,6 +161,7 @@ namespace StepperWF
             while (currentTime - startTime < period)
             {
                 readSwitches();
+                currentTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
             }
             return period;
         }
@@ -308,6 +309,17 @@ namespace StepperWF
                 if (string.IsNullOrWhiteSpace(line)) continue;
 
                 Console.WriteLine("Read line:{0}", line);
+                if (line.StartsWith("END")) //Terminate program
+                {
+                    string expr = "";
+                    string[] line1 = line.Split('#'); //Disregard comments
+                    string[] parsedLine = line1[0].Split(',');
+                    if (string.IsNullOrWhiteSpace(parsedLine[0])) //Disregard blanks lines
+                        continue;
+                    if (parsedLine[1] != null)
+                        expr = parsedLine[1]; //isolate expression
+                    Environment.Exit(Int32.Parse(Evaluate(expr)));
+                }
                 if (line.StartsWith("IFRETURNISNOT")) //conditional execution based on last return
                 {
                     string value = "";
@@ -320,8 +332,10 @@ namespace StepperWF
                         expr = parsedLine[1]; //isolate expression
                     if (parsedLine[2] != null)
                         value = parsedLine[2]; //isolate target value
+                    value = Evaluate(value);
+                    expr = Evaluate(expr);
 
-                    if (value == ExpandVariables(expr)) //last return matches value
+                    if (value == expr) //last return matches value
                         continue; //do nothing, go to read next command
                                   //value is not equal to last response, execute conditional command
                     line = ""; //reassemble rest of conditional command
@@ -344,8 +358,9 @@ namespace StepperWF
                         expr = parsedLine[1]; //isolate expression
                     if (parsedLine[2] != null)
                         value = parsedLine[2]; //isolate target value
-
-                    if (value != ExpandVariables(expr)) //last return does not match value
+                    value = Evaluate(value);
+                    expr = Evaluate(expr);
+                    if (value != Evaluate(expr)) //last return does not match value
                         continue; //do nothing, go to read next command
                                   //value is equal to last response
                     line = ""; //reassemble rest of command
@@ -516,7 +531,7 @@ namespace StepperWF
                         DialogResult result;
                         result = MessageBox.Show(parsedLine[1], "Stepper Alert!", buttons);
                         response = result.ToString();
-                        changeVar("reponse", response);
+                        changeVar("response", response);
                         continue;
                     }
                 }

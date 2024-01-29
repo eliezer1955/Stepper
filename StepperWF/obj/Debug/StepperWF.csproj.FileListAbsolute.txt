@@ -36,3 +36,6 @@ C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.exe
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.pdb
 C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.config
 C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.dll
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\stamp.tst.txt
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\stepper.tst.txt
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\PlotStampTest.py
