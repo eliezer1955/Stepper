@@ -1,7 +1,8 @@
 GetFwVerStr
+MONITORSWITCHES,60000
 READSWITCHES
-IFRETURNISNOT,%cannulaLeft%,true,ALERT,Left cannula not engaged; please correct
-IFRETURNISNOT,%carriageLeft%,true,ALERT,Left carriage not engaged; please correct
+IFRETURNISNOT,%cannulaLeft%,True,ALERT,Left cannula not engaged; please correct
+IFRETURNISNOT,%carriageLeft%,False,ALERT,Left carriage not engaged; please correct
 Init2209
 SetCurrentAxis,1
 SetMovePolarity,False
@@ -9,29 +10,20 @@ Set2209MicroStepMode,8
 Set2209MotorCurrent,1000
 SetMaxSpeed,20000
 SetMaxHomeSearchMove,300000
-SetMaxTravel,300000
+SetMaxTravel,200000
 SetHomingSpeed,20000
 InitializeAxis
 WAIT,1
-SetCurrentAxis,2
-SetMovePolarity,False
-Set2209MicroStepMode,8
-Set2209MotorCurrent,1000
-SetMaxSpeed,20000
-SetMaxHomeSearchMove,300000
-SetMaxTravel,300000
-SetHomingSpeed,20000
-InitializeAxis
-WAIT,2
-#InitializeAxis
-SetCurrentAxis,1
+EXECUTE,C:\Users\S2\source\repos\RoboClawWF1\bin\x64\Debug\WindowsApplication.exe RotateSlow.tst.txt
 GetCurrentMotorStatus
-SLEEP,5000
+SLEEP,1000
+MoveToPosition,0
+WAIT,1
 GetCurrentMotorStatus
-#MoveToPosition,120000
-#MONITORSWITCHES,60000
 LOGERROR,Starting stamp test
-MoveRelative,20000
+SLEEP,5000
+MoveToPosition,20000
+SLEEP,2000
 WAIT,1
 READSWITCHES
 LOGERROR,Position= 20000 Force = %forceLeft%
@@ -131,7 +123,43 @@ MoveRelative,2000
 WAIT,1
 READSWITCHES
 LOGERROR,Position= 140000 Force = %forceLeft%
-MoveRelative,20000
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 142000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 144000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 146000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 148000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 150000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 152000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 154000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 156000 Force = %forceLeft%
+MoveRelative,2000
+WAIT,1
+READSWITCHES
+LOGERROR,Position= 158000 Force = %forceLeft%
+MoveRelative,2000
 WAIT,1
 READSWITCHES
 LOGERROR,Position= 160000 Force = %forceLeft%
@@ -139,10 +167,7 @@ MoveRelative,20000
 WAIT,1
 READSWITCHES
 LOGERROR,Position= 180000 Force = %forceLeft%
-MoveRelative,20000
-WAIT,1
-READSWITCHES
-LOGERROR,Position= 200000 Force = %forceLeft%
 EXECUTE,python PlotStampTest.py
-MoveRelative,-100000
+MoveRelative,-120000
+EXECUTE,C:\Users\S2\source\repos\RoboClawWF1\bin\x64\Debug\WindowsApplication.exe stop.tst.txt
 MONITORSWITCHES,60000

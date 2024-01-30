@@ -17,6 +17,7 @@ namespace StepperWF
         public string CurrentMacro = "stepper.tst.txt";
         public StepperController stepperController;
         public string[] CmdLineArgs;
+        public bool stopMonitoring = false;
         public Form1(String[] args)
         {
             //System.Diagnostics.Debugger.Launch();
@@ -99,6 +100,11 @@ namespace StepperWF
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            stopMonitoring = true;
         }
     }
 }

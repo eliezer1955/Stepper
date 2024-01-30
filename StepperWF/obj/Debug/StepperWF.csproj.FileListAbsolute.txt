@@ -21,9 +21,14 @@ C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.pdb
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\bin\Debug\Newtonsoft.Json.dll
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CopyComplete
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.AssemblyReference.cache
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\PlotStampTest.py
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\stamp.tst.txt
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\stepper.tst.txt
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.config
 C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\StepperWF.exe.config
 C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\StepperWF.exe
 C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\StepperWF.pdb
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.dll
 C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\Newtonsoft.Json.dll
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.AssemblyReference.cache
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.SuggestedBindingRedirects.cache
@@ -34,8 +39,3 @@ C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CoreCom
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CopyComplete
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.exe
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.pdb
-C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.config
-C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.dll
-C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\stamp.tst.txt
-C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\stepper.tst.txt
-C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\PlotStampTest.py

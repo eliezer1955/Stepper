@@ -19,6 +19,16 @@ namespace StepperWF
         }
 
 
+        public void refreshGUI()
+        {
+            this.controller.parent.Invalidate();
+            this.controller.parent.Update();
+            this.controller.parent.Refresh();
+            Application.DoEvents();
+        }
+
+
+
         public void AddVar(string key, object v) //storing the ref to a string
         {
             if (null == v)
@@ -158,11 +168,18 @@ namespace StepperWF
         {
             long startTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
             long currentTime = startTime;
+            this.controller.SetControlPropertyThreadSafe(controller.parent.button4, "Visible", true);
             while (currentTime - startTime < period)
             {
                 readSwitches();
                 currentTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+                if (this.controller.parent.stopMonitoring)
+                {
+                    this.controller.parent.stopMonitoring = false;
+                    break;
+                }
             }
+            this.controller.SetControlPropertyThreadSafe(controller.parent.button4, "Visible", false);
             return period;
         }
 
@@ -283,10 +300,9 @@ namespace StepperWF
             forceRight = 50 + forceRight / 2;
             forceLeft = Math.Min(Math.Max(forceLeft, 0), 100);
             forceRight = Math.Min(Math.Max(forceRight, 0), 100);
-            //controller.SetControlPropertyThreadSafe( controller.parent.forceLeft, "Value", Math.Round(forceLeft,0) );
-            //controller.SetControlPropertyThreadSafe( controller.parent.forceRight, "Value", Math.Round(forceRight,0) );
             controller.parent.forceLeft.Value = (int)Math.Round(forceLeft, 0);
             controller.parent.forceRight.Value = (int)Math.Round(forceRight, 0);
+            refreshGUI();
 
         }
         public async void RunMacro()
