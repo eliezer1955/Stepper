@@ -22,14 +22,22 @@ namespace StepperWF
         {
             //System.Diagnostics.Debugger.Launch();
             CmdLineArgs = args;
+            if (args[0] != "Slave")
+                CurrentMacro = args[0];
             InitializeComponent();
             button2.Text = CurrentMacro;
             stepperController = new StepperController(CurrentMacro, this);
-            if(CmdLineArgs.Length>0)
-            {
-                Thread runner = new Thread(() => stepperController.SocketMode( CmdLineArgs ));
-                runner.Start();
-            }
+            if (CmdLineArgs.Length > 0)
+                if (CmdLineArgs[0] == "Slave")
+                {
+                    Thread runner = new Thread( () => stepperController.SocketMode( CmdLineArgs ) );
+                    runner.Start();
+                }
+                else
+                {
+                    MacroRunner macroRunner = new MacroRunner( stepperController, null, CurrentMacro );
+                    macroRunner.RunMacro();
+                }
 
         }
         // run macro
