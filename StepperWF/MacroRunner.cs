@@ -67,6 +67,7 @@ namespace StepperWF
         private String forceLeftString, forceRightString, opticalString, microSwitchString;
         private String response;
         private Dictionary<string, object> variables = new Dictionary<string, object>();
+        private string cannulaLeft, cannulaRight, carriageLeft, carriageRight, doorLeft, doorRight;
 
         private string ExpandVariables(string instring)
         {
