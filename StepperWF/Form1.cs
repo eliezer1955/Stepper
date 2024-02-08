@@ -18,11 +18,12 @@ namespace StepperWF
         public StepperController stepperController;
         public string[] CmdLineArgs;
         public bool stopMonitoring = false;
+        public string serialNumber;
         public Form1(String[] args)
         {
             //System.Diagnostics.Debugger.Launch();
             CmdLineArgs = args;
-            if (args[0] != "Slave")
+            if (args.Length>0 && args[0] != "Slave")
                 CurrentMacro = args[0];
             InitializeComponent();
             button2.Text = CurrentMacro;
@@ -113,6 +114,11 @@ namespace StepperWF
         private void button4_Click(object sender, EventArgs e)
         {
             stopMonitoring = true;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

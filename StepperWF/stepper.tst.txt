@@ -1,9 +1,9 @@
 GetFwVerStr
 #Monitor switches, forces for 60 seconds
-MONITORSWITCHES,60000
+MONITORSWITCHES,960000
 READSWITCHES
 #Check cannula, carriage are active, prompt for correction if not
-IFRETURNISNOT,%cannulaLeft%,True,ALERT,Left cannula not engaged; please correct
+IFRETURNISNOT,%cannulaLeft%,False,ALERT,Left cannula not engaged; please correct
 READSWITCHES
 IFRETURNISNOT,%carriageLeft%,False,ALERT,Left carriage not engaged; please correct
 #Initialize motor 1
@@ -217,7 +217,7 @@ READSWITCHES
 LOGERROR,Position= 180000 Force = %forceLeft%
 #Plot force vs Position (Python script)
 EXECUTE,python PlotStampTest.py
-MoveRelative,-120000
+MoveRelative,-130000
 #Stop DC Motor rotation
 EXECUTE,C:\Users\S2\source\repos\RoboClawWF1\bin\x64\Debug\WindowsApplication.exe stop.tst.txt
 #Monitor switches, forces for 60 seconds

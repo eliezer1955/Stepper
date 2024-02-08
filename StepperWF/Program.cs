@@ -14,17 +14,21 @@ namespace StepperWF
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main( string[] args)
+        static void Main(string[] args)
         {
+            ComPortMap cm;
+            cm = new ComPortMap();
+            string serialNumber = cm.GetComPort("SerialNumber");
             var configFile = new FileInfo(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "log4net.config"));
             log4net.Config.XmlConfigurator.Configure(configFile);
-            _logger.Info("StepperDiag  is starting...");
+            _logger.Info("SN" + serialNumber+ " StepperDiag is starting...");
 
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault( false );
+            Application.SetCompatibleTextRenderingDefault(false);
             myform = new Form1(args);
             myform.CmdLineArgs = args;
-            Application.Run( myform );
+            myform.serialNumber = serialNumber;
+            Application.Run(myform);
         }
     }
 }

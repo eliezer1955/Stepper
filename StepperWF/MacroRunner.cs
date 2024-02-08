@@ -89,7 +89,7 @@ namespace StepperWF
                                 sb.Append(val.Ref);
                                 start = i = i + j + 1;
                             }
-                            else _logger.Error("Unknown variable:" + val);
+                            else _logger.Error("SN " + controller.parent.serialNumber + " " + "Unknown variable:" + val);
                             continue;
                         }
             if ((i - start > 0) && (start < instring.Length))
@@ -207,11 +207,14 @@ namespace StepperWF
             if (cmd.Ok)
             {
                 CommandMessenger.ReceivedCommand responseCmd = controller._cmdMessenger.SendCommand(cmd);
-                string response = responseCmd.RawString;
-                string[] line1 = response.Split(',');
-                line1 = line1[2].Split(';');
-                response = line1[0];
-                reslt = float.Parse(response);
+                if (responseCmd.RawString != null)
+                {
+                    string response = responseCmd.RawString;
+                    string[] line1 = response.Split(',');
+                    line1 = line1[2].Split(';');
+                    response = line1[0];
+                    reslt = float.Parse(response);
+                }
             }
 
             return reslt;
@@ -231,11 +234,14 @@ namespace StepperWF
             if (cmd.Ok)
             {
                 CommandMessenger.ReceivedCommand responseCmd = controller._cmdMessenger.SendCommand(cmd);
-                string response = responseCmd.RawString;
-                string[] line1 = response.Split(',');
-                line1 = line1[2].Split(';');
-                response = line1[0];
-                reslt = Int16.Parse(response);
+                if (responseCmd.RawString != null)
+                {
+                    string response = responseCmd.RawString;
+                    string[] line1 = response.Split(',');
+                    line1 = line1[2].Split(';');
+                    response = line1[0];
+                    reslt = Int16.Parse(response);
+                }
             }
 
             return reslt;
@@ -296,6 +302,8 @@ namespace StepperWF
             controller.SetControlPropertyThreadSafe(controller.parent.checkBox2, "Checked", (optical & (short)0x04) != 0);
             controller.SetControlPropertyThreadSafe(controller.parent.checkBox5, "Checked", (optical & (short)0x08) != 0);
             controller.SetControlPropertyThreadSafe(controller.parent.checkBox4, "Checked", (optical & (short)0x02) != 0);
+            controller.SetControlPropertyThreadSafe(controller.parent.textBox1, "BackColor", (forceLeft < -3 || forceLeft >  6) ? System.Drawing.Color.Crimson: System.Drawing.Color.LimeGreen);
+            controller.SetControlPropertyThreadSafe(controller.parent.textBox2, "BackColor", (forceLeft < -3 || forceRight > 6 )? System.Drawing.Color.Crimson : System.Drawing.Color.LimeGreen);
             forceLeft = 50 + forceLeft / 2; //empirical scaling
             forceRight = 50 + forceRight / 2;
             forceLeft = Math.Min(Math.Max(forceLeft, 0), 100);
@@ -351,7 +359,7 @@ namespace StepperWF
                     value = Evaluate(value);
                     expr = Evaluate(expr);
 
-                    if (value == expr) //last return matches value
+                    if (value != expr) //last return matches value
                         continue; //do nothing, go to read next command
                                   //value is not equal to last response, execute conditional command
                     line = ""; //reassemble rest of conditional command
@@ -376,7 +384,7 @@ namespace StepperWF
                         value = parsedLine[2]; //isolate target value
                     value = Evaluate(value);
                     expr = Evaluate(expr);
-                    if (value != Evaluate(expr)) //last return does not match value
+                    if (value == Evaluate(expr)) //last return does not match value
                         continue; //do nothing, go to read next command
                                   //value is equal to last response
                     line = ""; //reassemble rest of command
@@ -447,7 +455,7 @@ namespace StepperWF
                     if (parsedLine[1] != null)
                         value = ExpandVariables(parsedLine[1]);
 
-                    _logger.Error(value);
+                    _logger.Error("SN " + controller.parent.serialNumber + " " + value);
                     continue;
                 }
                 if (line.StartsWith("GOTO"))
@@ -460,7 +468,7 @@ namespace StepperWF
                     if (parsedLine[1] != null)
                         value = parsedLine[1].TrimEnd('\r', '\n', ' ', '\t');
                     if (!label.ContainsKey(value))
-                        _logger.Error("Unknown label " + value);
+                        _logger.Error("SN " + controller.parent.serialNumber + " " + "Unknown label " + value);
                     else
                     {
 
@@ -547,7 +555,8 @@ namespace StepperWF
                         DialogResult result;
                         result = MessageBox.Show(parsedLine[1], "Stepper Alert!", buttons);
                         response = result.ToString();
-                        changeVar("response", response);
+                        string[] resp1 = response.Split(',');
+                        changeVar("response", resp1[0]);
                         continue;
                     }
                 }
@@ -626,6 +635,14 @@ namespace StepperWF
                         if (responseCmd.RawString != null)
                         {
                             Console.WriteLine(String.Format(">>>>{0}<<<{1}", cmd.CmdId, responseCmd.RawString.Trim()));
+                            string temp = responseCmd.RawString.Trim();
+                            string[] temp1 = temp.Split(',');
+                            if (temp1.Length > 1)
+                            {
+                                response = temp1[1].TrimEnd(';', '\r', '\n');
+                                changeVar("response", response);
+                            }
+
                             if (commandNumber == 5)   //GetFwVersionStr
                             {
                                 this.controller.SetControlPropertyThreadSafe(controller.parent.label7, "Text", responseCmd.RawString.Trim());

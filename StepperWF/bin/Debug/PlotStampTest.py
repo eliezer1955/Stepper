@@ -54,6 +54,9 @@ y=np.array(y)
 #generate plot
 fig=plt.figure()
 ax=fig.add_subplot(111)
+expectedx=[20000,135000,140000]
+expectedy=[12,30,100]
+ax.plot(expectedx,expectedy,linewidth=12,color="green",alpha=0.4)
 ax.plot(x,y)
 ax.set_title(dateTime)
 ax.set(xlabel='Position [steps]',ylabel='Force [au]')
