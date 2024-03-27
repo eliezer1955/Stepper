@@ -1,12 +1,7 @@
 GetFwVerStr
-#Monitor switches, forces for 60 seconds
-MONITORSWITCHES,960000
-READSWITCHES
-#Check cannula, carriage are active, prompt for correction if not
-IFRETURNISNOT,%cannulaRight%,False,ALERT,Right cannula not engaged; please correct
-READSWITCHES
-IFRETURNISNOT,%carriageRight%,False,ALERT,Right carriage not engaged; please correct
-#Initialize motor 2
+EXECUTE,C:\Users\S2\source\repos\new\RoboClawWF\bin\x64\Debug\WindowsApplication.exe RotateSlow2.tst.txt
+STATUS,Retracting right disruptor
+#Initialize motor
 Init2209
 SetCurrentAxis,2
 SetMovePolarity,False
@@ -16,11 +11,22 @@ SetMaxSpeed,20000
 SetMaxHomeSearchMove,300000
 SetMaxTravel,200000
 SetHomingSpeed,20000
-ALERT,Homing Motor 2
+
+InitializeAxis
+#Initialize motor 2
+ALERT,Insert cartridge with plunger in right bay
+READSWITCHES
+
+#Check cannula, carriage are active, prompt for correction if not
+IFRETURNISNOT,%cannulaRight%,False,ALERT,Right cannula not engaged; please correct
+READSWITCHES
+IFRETURNISNOT,%carriageRight%,False,ALERT,Right carriage not engaged; please correct
+#Initialize motor 2
 InitializeAxis
 GetHomeFlagState
+STATUS,Testing homing switch
 #FLAG should be off
-IFRETURNISNOT,%response%,0,ALERT,Incorrect Home Flag state for Motor 2 (flag is on)
+IFRETURNISNOT,%response%,0,ALERT,Incorrect Home Flag state for right Motor  (flag is on)
 WAIT,2
 #Homing switch test
 MoveRelative,-100
@@ -37,7 +43,8 @@ GetLastInitPosition
 SET,lastInit,%response%
 #End Homing Switch test
 #Start DC motor rotation
-EXECUTE,C:\Users\S2\source\repos\RoboClawWF1\bin\x64\Debug\WindowsApplication.exe RotateSlow2.tst.txt
+
+EXECUTE,C:\Users\S2\source\repos\new\RoboClawWF\bin\x64\Debug\WindowsApplication.exe RotateSlow2.tst.txt
 GetCurrentMotorStatus
 SLEEP,1000
 MoveToPosition,0
@@ -45,6 +52,7 @@ WAIT,2
 GetCurrentMotorStatus
 LOGERROR,Starting stamp test
 SLEEP,5000
+STATUS,Testing force sensors
 #Move and record force sensor reading
 MoveToPosition,20000
 SLEEP,2000
@@ -175,60 +183,13 @@ WAIT,2
 READSWITCHES
 LOGERROR,Position= 142000 Force = %forceRight%
 #Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 144000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 146000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 148000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 150000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 152000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 154000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 156000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 158000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,2000
-WAIT,2
-READSWITCHES
-LOGERROR,Position= 160000 Force = %forceRight%
-#Move and record force sensor reading
-MoveRelative,20000
-WAIT,2
-READSWITCHES
-#Move and record force sensor reading
-LOGERROR,Position= 180000 Force = %forceRight%
 #Plot force vs Position (Python script)
 EXECUTE,python PlotStampTest.py
 MoveRelative,-130000
 #Stop DC Motor rotation
-EXECUTE,C:\Users\S2\source\repos\RoboClawWF1\bin\x64\Debug\WindowsApplication.exe stop.tst.txt
+EXECUTE,C:\Users\S2\source\repos\new\RoboClawWF\bin\x64\Debug\WindowsApplication.exe stop.tst.txt
+InitializeAxis
 #Monitor switches, forces for 60 seconds
+STATUS,Monitoring switches- press Stop Monitoring to continue
 MONITORSWITCHES,60000
+STATUS,Stepper Right test complete

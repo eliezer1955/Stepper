@@ -31,12 +31,10 @@ C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\StepperWF.pdb
 C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.dll
 C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\Newtonsoft.Json.dll
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.AssemblyReference.cache
-C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.SuggestedBindingRedirects.cache
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.Form1.resources
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.Properties.Resources.resources
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.GenerateResource.cache
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CoreCompileInputs.cache
-C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.CopyComplete
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.exe
 C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.pdb
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\bin\Debug\PlotStampTest.py
@@ -44,3 +42,8 @@ C:\Users\rosengau\source\repos\StepperWF1\StepperWF\bin\Debug\stamp.tst.txt
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\bin\Debug\stepper.tst.txt
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.config
 C:\Users\rosengau\source\repos\StepperWF1\StepperWF\bin\Debug\log4net.dll
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\RotateSlow.tst.txt
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\RotateSlow2.tst.txt
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\stepper2.tst.txt
+C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\stop.tst.txt
+C:\Users\S2\source\repos\StepperWF1\StepperWF\obj\Debug\StepperWF.csproj.Up2Date

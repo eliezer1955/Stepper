@@ -33,6 +33,11 @@
           "net472": {
             "projectReferences": {}
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -51,6 +56,9 @@
       },
       "runtimes": {
         "win": {
+          "#import": []
+        },
+        "win-arm64": {
           "#import": []
         },
         "win-x64": {

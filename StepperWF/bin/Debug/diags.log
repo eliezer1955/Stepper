@@ -340,3 +340,1734 @@
 2024-01-29 08:25:49,445 [1] ERROR StepperWF.MacroRunner - Position= 200000 Force = 105.93
 2024-01-29 08:35:04,577 [1] INFO StepperWF.Program - StepperDiag  is starting...
 2024-01-29 08:36:43,216 [1] INFO StepperWF.Program - StepperDiag  is starting...
+2024-02-05 12:12:09,533 [1] INFO StepperWF.Program - StepperDiag  is starting...
+2024-02-05 12:12:51,336 [1] INFO StepperWF.Program - StepperDiag  is starting...
+2024-02-05 12:14:23,463 [1] INFO StepperWF.Program - StepperDiag  is starting...
+2024-02-06 14:33:15,874 [1] INFO StepperWF.Program - SNS2000111 StepperDiag is starting...
+2024-02-06 14:35:45,808 [1] INFO StepperWF.Program - SNS2000111 StepperDiag is starting...
+2024-02-07 11:28:08,907 [1] INFO StepperWF.Program - SNS200111 StepperDiag is starting...
+2024-02-07 11:28:28,375 [1] ERROR StepperWF.MacroRunner - SN S200111 Starting stamp test
+2024-02-07 11:28:35,479 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 20000 Force = 12.8
+2024-02-07 11:28:37,008 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 40000 Force = 15.27
+2024-02-07 11:28:38,537 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 60000 Force = 20.45
+2024-02-07 11:28:40,086 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 80000 Force = 23.13
+2024-02-07 11:28:41,629 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 100000 Force = 25.06
+2024-02-07 11:28:42,085 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 102000 Force = 25.35
+2024-02-07 11:28:42,542 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 104000 Force = 25.9
+2024-02-07 11:28:42,999 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 106000 Force = 26.33
+2024-02-07 11:28:43,456 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 108000 Force = 26.96
+2024-02-07 11:28:43,899 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 110000 Force = 26.14
+2024-02-07 11:28:44,353 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 112000 Force = 26.05
+2024-02-07 11:28:44,826 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 114000 Force = 25.74
+2024-02-07 11:28:45,282 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 116000 Force = 26.16
+2024-02-07 11:28:45,737 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 118000 Force = 26.75
+2024-02-07 11:28:46,192 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 120000 Force = 26.37
+2024-02-07 11:28:46,650 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 122000 Force = 26.65
+2024-02-07 11:28:47,107 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 124000 Force = 27.17
+2024-02-07 11:28:47,561 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 126000 Force = 28.2
+2024-02-07 11:28:48,018 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 128000 Force = 28.91
+2024-02-07 11:28:48,475 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 130000 Force = 28.94
+2024-02-07 11:28:48,919 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 132000 Force = 28.89
+2024-02-07 11:28:49,392 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 134000 Force = 29.43
+2024-02-07 11:28:49,847 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 136000 Force = 66.04
+2024-02-07 11:28:50,305 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 138000 Force = 94.24
+2024-02-07 11:28:50,763 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 140000 Force = 105.51
+2024-02-07 11:28:51,236 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 142000 Force = 104.91
+2024-02-07 11:28:51,659 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 144000 Force = 105.4
+2024-02-07 11:28:52,116 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 146000 Force = 105.09
+2024-02-07 11:28:52,572 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 148000 Force = 104.68
+2024-02-07 11:28:53,031 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 150000 Force = 104.2
+2024-02-07 11:28:53,504 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 152000 Force = 103.85
+2024-02-07 11:28:53,959 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 154000 Force = 103.4
+2024-02-07 11:28:54,410 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 156000 Force = 104.22
+2024-02-07 11:28:54,859 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 158000 Force = 103.72
+2024-02-07 11:28:55,330 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 160000 Force = 103.35
+2024-02-07 11:28:56,876 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 180000 Force = 102.49
+2024-02-07 12:05:40,246 [1] INFO StepperWF.Program - SNS200111 StepperDiag is starting...
+2024-02-07 12:06:00,491 [1] ERROR StepperWF.MacroRunner - SN S200111 Starting stamp test
+2024-02-07 12:06:07,578 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 20000 Force = 15.28
+2024-02-07 12:06:09,128 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 40000 Force = 17.86
+2024-02-07 12:06:10,671 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 60000 Force = 21.57
+2024-02-07 12:06:12,216 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 80000 Force = 23.78
+2024-02-07 12:06:13,761 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 100000 Force = 25.38
+2024-02-07 12:06:14,202 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 102000 Force = 26.25
+2024-02-07 12:06:14,663 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 104000 Force = 26.39
+2024-02-07 12:06:15,131 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 106000 Force = 27.46
+2024-02-07 12:06:15,585 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 108000 Force = 27.43
+2024-02-07 12:06:16,043 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 110000 Force = 27.01
+2024-02-07 12:06:16,499 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 112000 Force = 26.79
+2024-02-07 12:06:16,968 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 114000 Force = 26.67
+2024-02-07 12:06:17,425 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 116000 Force = 26.87
+2024-02-07 12:06:17,897 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 118000 Force = 27.23
+2024-02-07 12:06:18,352 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 120000 Force = 27.38
+2024-02-07 12:06:18,796 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 122000 Force = 27.48
+2024-02-07 12:06:19,270 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 124000 Force = 27.93
+2024-02-07 12:06:19,721 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 126000 Force = 28.21
+2024-02-07 12:06:20,178 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 128000 Force = 28.59
+2024-02-07 12:06:20,634 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 130000 Force = 28.8
+2024-02-07 12:06:21,090 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 132000 Force = 28.96
+2024-02-07 12:06:21,531 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 134000 Force = 30.21
+2024-02-07 12:06:21,992 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 136000 Force = 68.39
+2024-02-07 12:06:22,446 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 138000 Force = 95.74
+2024-02-07 12:06:22,902 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 140000 Force = 106.71
+2024-02-07 12:06:23,373 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 142000 Force = 105.31
+2024-02-07 12:06:23,847 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 144000 Force = 104.93
+2024-02-07 12:06:24,304 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 146000 Force = 105.63
+2024-02-07 12:06:24,762 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 148000 Force = 105.33
+2024-02-07 12:06:25,219 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 150000 Force = 104.69
+2024-02-07 12:06:25,676 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 152000 Force = 104.28
+2024-02-07 12:06:26,120 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 154000 Force = 103.84
+2024-02-07 12:06:26,574 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 156000 Force = 104.69
+2024-02-07 12:06:27,031 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 158000 Force = 102.7
+2024-02-07 12:06:27,488 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 160000 Force = 103.59
+2024-02-07 12:06:29,033 [1] ERROR StepperWF.MacroRunner - SN S200111 Position= 180000 Force = 101.52
+2024-02-07 13:39:47,198 [1] INFO StepperWF.Program - SNS220082470 StepperDiag is starting...
+2024-02-07 13:41:07,780 [1] ERROR StepperWF.MacroRunner - SN S220082470 Starting stamp test
+2024-02-07 13:41:14,858 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 20000 Force = 15.76
+2024-02-07 13:41:16,389 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 40000 Force = 17.54
+2024-02-07 13:41:17,937 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 60000 Force = 21.86
+2024-02-07 13:41:19,480 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 80000 Force = 23.99
+2024-02-07 13:41:21,039 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 100000 Force = 26.17
+2024-02-07 13:41:21,497 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 102000 Force = 26.78
+2024-02-07 13:41:21,946 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 104000 Force = 26.79
+2024-02-07 13:41:22,395 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 106000 Force = 26.86
+2024-02-07 13:41:22,850 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 108000 Force = 27.18
+2024-02-07 13:41:23,322 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 110000 Force = 27.23
+2024-02-07 13:41:23,779 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 112000 Force = 27.11
+2024-02-07 13:41:24,220 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 114000 Force = 27.08
+2024-02-07 13:41:24,679 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 116000 Force = 27.06
+2024-02-07 13:41:25,135 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 118000 Force = 27.58
+2024-02-07 13:41:25,607 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 120000 Force = 27.81
+2024-02-07 13:41:26,057 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 122000 Force = 28.05
+2024-02-07 13:41:26,506 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 124000 Force = 28.47
+2024-02-07 13:41:26,962 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 126000 Force = 28.77
+2024-02-07 13:41:27,419 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 128000 Force = 29.09
+2024-02-07 13:41:27,875 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 130000 Force = 29.74
+2024-02-07 13:41:28,332 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 132000 Force = 29.84
+2024-02-07 13:41:28,789 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 134000 Force = 29.95
+2024-02-07 13:41:29,246 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 136000 Force = 65.3
+2024-02-07 13:41:29,703 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 138000 Force = 95.1
+2024-02-07 13:41:30,166 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 140000 Force = 106.22
+2024-02-07 13:41:30,631 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 142000 Force = 104.81
+2024-02-07 13:41:31,088 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 144000 Force = 104.24
+2024-02-07 13:41:31,542 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 146000 Force = 104.89
+2024-02-07 13:41:32,000 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 148000 Force = 104.52
+2024-02-07 13:41:32,454 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 150000 Force = 103.96
+2024-02-07 13:41:32,912 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 152000 Force = 103.34
+2024-02-07 13:41:33,375 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 154000 Force = 102.98
+2024-02-07 13:41:33,827 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 156000 Force = 103.7
+2024-02-07 13:41:34,282 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 158000 Force = 103.25
+2024-02-07 13:41:34,738 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 160000 Force = 102.73
+2024-02-07 13:41:36,281 [1] ERROR StepperWF.MacroRunner - SN S220082470 Position= 180000 Force = 101.91
+
+2024-02-21 10:18:14,351 [1] INFO StepperWF.Program - SN89997 StepperDiag is starting...
+2024-02-21 10:18:40,161 [1] ERROR StepperWF.MacroRunner - SN 89997 Starting stamp test
+2024-02-21 10:18:47,271 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 20000 Force = -5.64
+2024-02-21 10:18:48,899 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 40000 Force = -4.73
+2024-02-21 10:18:50,518 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 60000 Force = -0.1
+2024-02-21 10:18:52,143 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 80000 Force = 4.3
+2024-02-21 10:18:53,800 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 100000 Force = 8.38
+2024-02-21 10:18:54,254 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 102000 Force = 9.59
+2024-02-21 10:18:54,709 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 104000 Force = 9.98
+2024-02-21 10:18:55,178 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 106000 Force = 11.8
+2024-02-21 10:18:55,634 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 108000 Force = 10.1
+2024-02-21 10:18:56,092 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 110000 Force = 13.63
+2024-02-21 10:18:56,563 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 112000 Force = 10.8
+2024-02-21 10:18:57,035 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 114000 Force = 11.46
+2024-02-21 10:18:57,492 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 116000 Force = 10.64
+2024-02-21 10:18:57,951 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 118000 Force = 12.74
+2024-02-21 10:18:58,411 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 120000 Force = 16.98
+2024-02-21 10:18:58,879 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 122000 Force = 17.2
+2024-02-21 10:18:59,320 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 124000 Force = 13.62
+2024-02-21 10:18:59,777 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 126000 Force = 18.36
+2024-02-21 10:19:00,236 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 128000 Force = 20.86
+2024-02-21 10:19:00,693 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 130000 Force = 33.29
+2024-02-21 10:19:01,153 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 132000 Force = 61.88
+2024-02-21 10:19:01,610 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 134000 Force = 84.13
+2024-02-21 10:19:02,048 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 136000 Force = 96.45
+2024-02-21 10:19:02,506 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 138000 Force = 99.6
+2024-02-21 10:19:02,962 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 140000 Force = 101.48
+2024-02-21 10:19:03,434 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 142000 Force = 102.57
+2024-02-21 10:19:03,891 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 144000 Force = 101.64
+2024-02-21 10:19:04,329 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 146000 Force = 103.37
+2024-02-21 10:19:04,802 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 148000 Force = 102.76
+2024-02-21 10:19:05,258 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 150000 Force = 102.13
+2024-02-21 10:19:05,730 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 152000 Force = 102.91
+2024-02-21 10:19:06,187 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 154000 Force = 102.25
+2024-02-21 10:19:06,644 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 156000 Force = 102.84
+2024-02-21 10:19:07,069 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 158000 Force = 102.05
+2024-02-21 10:19:07,523 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 160000 Force = 103.07
+2024-02-21 10:19:09,142 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 180000 Force = 103.27
+2024-02-21 10:23:16,552 [1] ERROR StepperWF.MacroRunner - SN 89997 Starting stamp test
+2024-02-21 10:23:23,633 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 20000 Force = -4.8
+2024-02-21 10:23:25,249 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 40000 Force = -4.13
+2024-02-21 10:23:26,859 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 60000 Force = 3.97
+2024-02-21 10:23:28,498 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 80000 Force = 6.99
+2024-02-21 10:23:30,121 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 100000 Force = 10.16
+2024-02-21 10:23:30,580 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 102000 Force = 10.97
+2024-02-21 10:23:31,032 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 104000 Force = 11.47
+2024-02-21 10:23:31,482 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 106000 Force = 11.18
+2024-02-21 10:23:31,946 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 108000 Force = 11.53
+2024-02-21 10:23:32,389 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 110000 Force = 16.62
+2024-02-21 10:23:32,830 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 112000 Force = 12.92
+2024-02-21 10:23:33,286 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 114000 Force = 12.71
+2024-02-21 10:23:33,725 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 116000 Force = 13.17
+2024-02-21 10:23:34,187 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 118000 Force = 14.35
+2024-02-21 10:23:34,637 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 120000 Force = 15.87
+2024-02-21 10:23:35,094 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 122000 Force = 15.84
+2024-02-21 10:23:35,550 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 124000 Force = 17.55
+2024-02-21 10:23:36,007 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 126000 Force = 16.73
+2024-02-21 10:23:36,464 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 128000 Force = 18.49
+2024-02-21 10:23:36,920 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 130000 Force = 18.94
+2024-02-21 10:23:37,376 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 132000 Force = 33.65
+2024-02-21 10:23:37,834 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 134000 Force = 74.06
+2024-02-21 10:23:38,294 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 136000 Force = 91.8
+2024-02-21 10:23:38,731 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 138000 Force = 99.77
+2024-02-21 10:23:39,202 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 140000 Force = 101.92
+2024-02-21 10:23:39,658 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 142000 Force = 101.27
+2024-02-21 10:23:40,097 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 144000 Force = 101.98
+2024-02-21 10:23:40,568 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 146000 Force = 101.42
+2024-02-21 10:23:41,025 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 148000 Force = 102.29
+2024-02-21 10:23:41,462 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 150000 Force = 102.88
+2024-02-21 10:23:41,936 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 152000 Force = 102.7
+2024-02-21 10:23:42,390 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 154000 Force = 101.98
+2024-02-21 10:23:42,847 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 156000 Force = 102.67
+2024-02-21 10:23:43,319 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 158000 Force = 102.29
+2024-02-21 10:23:43,784 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 160000 Force = 103.02
+2024-02-21 10:23:45,394 [1] ERROR StepperWF.MacroRunner - SN 89997 Position= 180000 Force = 102.05
+2024-02-29 13:52:55,715 [1] INFO StepperWF.Program - SN1122334455 StepperDiag is starting...
+2024-02-29 13:57:36,963 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Starting stamp test
+2024-02-29 13:57:44,058 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 20000 Force = 0
+2024-02-29 13:57:45,693 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 40000 Force = 0
+2024-02-29 13:57:47,330 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 60000 Force = 0
+2024-02-29 13:57:48,967 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 80000 Force = 0
+2024-02-29 13:57:50,604 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 100000 Force = 0
+2024-02-29 13:57:51,058 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 102000 Force = 0
+2024-02-29 13:57:51,500 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 104000 Force = 0
+2024-02-29 13:57:51,940 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 106000 Force = 0
+2024-02-29 13:57:52,397 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 108000 Force = 0
+2024-02-29 13:57:52,838 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 110000 Force = 0
+2024-02-29 13:57:53,295 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 112000 Force = 0
+2024-02-29 13:57:53,750 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 114000 Force = 0
+2024-02-29 13:57:54,204 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 116000 Force = 0
+2024-02-29 13:57:54,647 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 118000 Force = 0
+2024-02-29 13:57:55,103 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 120000 Force = 0
+2024-02-29 13:57:55,564 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 122000 Force = 0
+2024-02-29 13:57:56,014 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 124000 Force = 0
+2024-02-29 13:57:56,467 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 126000 Force = 0
+2024-02-29 13:57:56,910 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 128000 Force = 0
+2024-02-29 13:57:57,350 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 130000 Force = 0
+2024-02-29 13:57:57,805 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 132000 Force = 0
+2024-02-29 13:57:58,245 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 134000 Force = 0
+2024-02-29 13:57:58,702 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 136000 Force = 0
+2024-02-29 13:57:59,158 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 138000 Force = 0
+2024-02-29 13:57:59,598 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 140000 Force = 0
+2024-02-29 13:58:00,053 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 142000 Force = 0
+2024-02-29 13:58:00,509 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 144000 Force = 0
+2024-02-29 13:58:00,964 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 146000 Force = 0
+2024-02-29 13:58:01,404 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 148000 Force = 0
+2024-02-29 13:58:01,859 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 150000 Force = 0
+2024-02-29 13:58:02,315 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 152000 Force = 0
+2024-02-29 13:58:02,770 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 154000 Force = 0
+2024-02-29 13:58:03,213 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 156000 Force = 0
+2024-02-29 13:58:03,667 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 158000 Force = 0
+2024-02-29 13:58:04,108 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 160000 Force = 0
+2024-02-29 13:58:05,760 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 180000 Force = 0
+2024-02-29 15:48:32,674 [1] INFO StepperWF.Program - SN1122334455 StepperDiag is starting...
+2024-02-29 15:49:02,719 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Starting stamp test
+2024-02-29 15:49:09,819 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 20000 Force = 0
+2024-02-29 15:49:11,438 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 40000 Force = 0
+2024-02-29 15:49:13,091 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 60000 Force = 0
+2024-02-29 15:49:14,714 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 80000 Force = 0
+2024-02-29 15:49:16,334 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 100000 Force = 0
+2024-02-29 15:49:16,791 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 102000 Force = 0
+2024-02-29 15:49:17,243 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 104000 Force = 0
+2024-02-29 15:49:17,684 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 106000 Force = 0
+2024-02-29 15:49:18,142 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 108000 Force = 0
+2024-02-29 15:49:18,582 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 110000 Force = 0
+2024-02-29 15:49:19,030 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 112000 Force = 0
+2024-02-29 15:49:19,479 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 114000 Force = 0
+2024-02-29 15:49:19,947 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 116000 Force = 0
+2024-02-29 15:49:20,412 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 118000 Force = 0
+2024-02-29 15:49:20,880 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 120000 Force = 0
+2024-02-29 15:49:21,336 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 122000 Force = 0
+2024-02-29 15:49:21,799 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 124000 Force = 0
+2024-02-29 15:49:22,249 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 126000 Force = 0
+2024-02-29 15:49:22,698 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 128000 Force = 0
+2024-02-29 15:49:23,167 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 130000 Force = 0
+2024-02-29 15:49:23,619 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 132000 Force = 0
+2024-02-29 15:49:24,071 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 134000 Force = 0
+2024-02-29 15:49:24,501 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 136000 Force = 0
+2024-02-29 15:49:24,962 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 138000 Force = 0
+2024-02-29 15:49:25,409 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 140000 Force = 0
+2024-02-29 15:49:25,858 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 142000 Force = 0
+2024-02-29 15:49:26,291 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 144000 Force = 0
+2024-02-29 15:49:26,729 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 146000 Force = 0
+2024-02-29 15:49:27,169 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 148000 Force = 0
+2024-02-29 15:49:27,618 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 150000 Force = 0
+2024-02-29 15:49:28,082 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 152000 Force = 0
+2024-02-29 15:49:28,531 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 154000 Force = 0
+2024-02-29 15:49:28,990 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 156000 Force = 0
+2024-02-29 15:49:29,452 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 158000 Force = 0
+2024-02-29 15:49:29,930 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 160000 Force = 0
+2024-02-29 15:49:31,567 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 180000 Force = 0
+2024-03-01 10:11:01,331 [1] INFO StepperWF.Program - SN1122334455 StepperDiag is starting...
+2024-03-01 10:13:06,154 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Starting stamp test
+2024-03-01 10:13:13,254 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 20000 Force = -5.74
+2024-03-01 10:13:14,863 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 40000 Force = -5.6
+2024-03-01 10:13:16,500 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 60000 Force = -5.47
+2024-03-01 10:13:18,125 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 80000 Force = -5.37
+2024-03-01 10:13:19,748 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 100000 Force = -5.4
+2024-03-01 10:13:20,206 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 102000 Force = -5.31
+2024-03-01 10:13:20,663 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 104000 Force = -5.27
+2024-03-01 10:13:21,113 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 106000 Force = -5.26
+2024-03-01 10:13:21,566 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 108000 Force = -5.24
+2024-03-01 10:13:22,021 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 110000 Force = -5.21
+2024-03-01 10:13:22,478 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 112000 Force = -5.29
+2024-03-01 10:13:22,935 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 114000 Force = -5.25
+2024-03-01 10:13:23,387 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 116000 Force = -5.27
+2024-03-01 10:13:23,842 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 118000 Force = -5.25
+2024-03-01 10:13:24,293 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 120000 Force = -5.24
+2024-03-01 10:13:24,743 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 122000 Force = -5.24
+2024-03-01 10:13:25,204 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 124000 Force = -5.2
+2024-03-01 10:13:25,656 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 126000 Force = -5.21
+2024-03-01 10:13:26,115 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 128000 Force = -5.25
+2024-03-01 10:13:26,579 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 130000 Force = -5.26
+2024-03-01 10:13:27,032 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 132000 Force = -5.24
+2024-03-01 10:13:27,484 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 134000 Force = -5.17
+2024-03-01 10:13:27,939 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 136000 Force = -5.13
+2024-03-01 10:13:28,393 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 138000 Force = -5.16
+2024-03-01 10:13:28,845 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 140000 Force = -5.21
+2024-03-01 10:13:29,307 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 142000 Force = -5.12
+2024-03-01 10:13:29,764 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 144000 Force = -5.22
+2024-03-01 10:13:30,213 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 146000 Force = -5.06
+2024-03-01 10:13:30,667 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 148000 Force = -4.79
+2024-03-01 10:13:31,123 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 150000 Force = 1.18
+2024-03-01 10:13:31,579 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 152000 Force = 98.26
+2024-03-01 10:13:32,032 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 154000 Force = 97.98
+2024-03-01 10:13:32,497 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 156000 Force = 100.91
+2024-03-01 10:13:32,957 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 158000 Force = 99.2
+2024-03-01 10:13:33,410 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 160000 Force = 101.5
+2024-03-01 10:13:35,032 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 180000 Force = 99.23
+2024-03-01 10:18:21,443 [1] INFO StepperWF.Program - SN1122334455 StepperDiag is starting...
+2024-03-01 10:18:53,533 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Starting stamp test
+2024-03-01 10:19:00,644 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 20000 Force = -5.33
+2024-03-01 10:19:02,267 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 40000 Force = -5.3
+2024-03-01 10:19:03,881 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 60000 Force = -5.08
+2024-03-01 10:19:05,515 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 80000 Force = -5.09
+2024-03-01 10:19:07,157 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 100000 Force = -5.15
+2024-03-01 10:19:07,595 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 102000 Force = -5.14
+2024-03-01 10:19:08,060 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 104000 Force = -5.29
+2024-03-01 10:19:08,525 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 106000 Force = -5.14
+2024-03-01 10:19:08,993 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 108000 Force = -5.17
+2024-03-01 10:19:09,451 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 110000 Force = -5.12
+2024-03-01 10:19:09,898 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 112000 Force = -5.13
+2024-03-01 10:19:10,348 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 114000 Force = -5.18
+2024-03-01 10:19:10,813 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 116000 Force = -5.16
+2024-03-01 10:19:11,277 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 118000 Force = -5.09
+2024-03-01 10:19:11,719 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 120000 Force = -5.13
+2024-03-01 10:19:12,190 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 122000 Force = -5.07
+2024-03-01 10:19:12,655 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 124000 Force = -5.07
+2024-03-01 10:19:13,115 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 126000 Force = -5.08
+2024-03-01 10:19:13,597 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 128000 Force = -5.06
+2024-03-01 10:19:14,041 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 130000 Force = -5.11
+2024-03-01 10:19:14,488 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 132000 Force = -5.07
+2024-03-01 10:19:14,952 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 134000 Force = -4.97
+2024-03-01 10:19:15,402 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 136000 Force = -5.09
+2024-03-01 10:19:15,864 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 138000 Force = -5.03
+2024-03-01 10:19:16,313 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 140000 Force = -5.03
+2024-03-01 10:19:16,771 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 142000 Force = -5.09
+2024-03-01 10:19:17,222 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 144000 Force = -5.07
+2024-03-01 10:19:17,692 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 146000 Force = -5.01
+2024-03-01 10:19:18,139 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 148000 Force = -4.87
+2024-03-01 10:19:18,604 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 150000 Force = -0.03
+2024-03-01 10:19:19,053 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 152000 Force = 96.66
+2024-03-01 10:19:19,518 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 154000 Force = 99.65
+2024-03-01 10:19:19,979 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 156000 Force = 98.61
+2024-03-01 10:19:20,431 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 158000 Force = 97.72
+2024-03-01 10:19:20,889 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 160000 Force = 99.94
+2024-03-01 10:19:22,524 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 180000 Force = 101.15
+2024-03-01 10:22:04,343 [1] INFO StepperWF.Program - SN1122334455 StepperDiag is starting...
+2024-03-01 10:22:25,325 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Starting stamp test
+2024-03-01 10:22:32,445 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 20000 Force = -5.04
+2024-03-01 10:22:34,066 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 40000 Force = -4.88
+2024-03-01 10:22:35,680 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 60000 Force = -4.47
+2024-03-01 10:22:37,288 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 80000 Force = -4.88
+2024-03-01 10:22:38,902 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 100000 Force = -4.78
+2024-03-01 10:22:39,352 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 102000 Force = -4.78
+2024-03-01 10:22:39,816 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 104000 Force = -4.68
+2024-03-01 10:22:40,265 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 106000 Force = -4.65
+2024-03-01 10:22:40,726 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 108000 Force = -4.54
+2024-03-01 10:22:41,180 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 110000 Force = -4.65
+2024-03-01 10:22:41,621 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 112000 Force = -4.75
+2024-03-01 10:22:42,080 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 114000 Force = -4.75
+2024-03-01 10:22:42,544 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 116000 Force = -4.79
+2024-03-01 10:22:42,989 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 118000 Force = -4.71
+2024-03-01 10:22:43,452 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 120000 Force = -4.6
+2024-03-01 10:22:43,903 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 122000 Force = -4.67
+2024-03-01 10:22:44,354 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 124000 Force = -4.48
+2024-03-01 10:22:44,815 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 126000 Force = -4.54
+2024-03-01 10:22:45,268 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 128000 Force = -4.56
+2024-03-01 10:22:45,721 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 130000 Force = -4.49
+2024-03-01 10:22:46,171 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 132000 Force = -4.51
+2024-03-01 10:22:46,642 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 134000 Force = -4.4
+2024-03-01 10:22:47,107 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 136000 Force = -4.42
+2024-03-01 10:22:47,555 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 138000 Force = -4.57
+2024-03-01 10:22:48,035 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 140000 Force = -4.73
+2024-03-01 10:22:48,510 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 142000 Force = -4.53
+2024-03-01 10:22:48,964 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 144000 Force = -4.41
+2024-03-01 10:22:49,405 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 146000 Force = -4.45
+2024-03-01 10:22:49,855 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 148000 Force = -3.97
+2024-03-01 10:22:50,315 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 150000 Force = 3.33
+2024-03-01 10:22:50,787 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 152000 Force = 97.79
+2024-03-01 10:22:51,240 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 154000 Force = 100.44
+2024-03-01 10:22:51,687 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 156000 Force = 99.61
+2024-03-01 10:22:52,137 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 158000 Force = 100.55
+2024-03-01 10:22:52,586 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 160000 Force = 100.68
+2024-03-01 10:22:54,215 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 180000 Force = 101.14
+2024-03-01 10:24:54,270 [1] INFO StepperWF.Program - SN1122334455 StepperDiag is starting...
+2024-03-01 10:25:10,776 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Starting stamp test
+2024-03-01 10:25:17,910 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 20000 Force = -4.62
+2024-03-01 10:25:19,521 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 40000 Force = -1.83
+2024-03-01 10:25:21,123 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 60000 Force = -4.66
+2024-03-01 10:25:22,760 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 80000 Force = -4.71
+2024-03-01 10:25:24,370 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 100000 Force = -4.06
+2024-03-01 10:25:24,836 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 102000 Force = -4.06
+2024-03-01 10:25:25,292 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 104000 Force = -4.42
+2024-03-01 10:25:25,745 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 106000 Force = -4.41
+2024-03-01 10:25:26,211 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 108000 Force = -4.34
+2024-03-01 10:25:26,666 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 110000 Force = -4.36
+2024-03-01 10:25:27,119 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 112000 Force = -4.26
+2024-03-01 10:25:27,580 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 114000 Force = -4.31
+2024-03-01 10:25:28,025 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 116000 Force = -4.34
+2024-03-01 10:25:28,475 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 118000 Force = -3.36
+2024-03-01 10:25:28,955 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 120000 Force = -3.19
+2024-03-01 10:25:29,413 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 122000 Force = -3.39
+2024-03-01 10:25:29,876 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 124000 Force = -3.9
+2024-03-01 10:25:30,331 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 126000 Force = -4.39
+2024-03-01 10:25:30,780 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 128000 Force = -4.46
+2024-03-01 10:25:31,243 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 130000 Force = -4.27
+2024-03-01 10:25:31,693 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 132000 Force = -4.13
+2024-03-01 10:25:32,142 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 134000 Force = -4.36
+2024-03-01 10:25:32,610 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 136000 Force = -4.32
+2024-03-01 10:25:33,080 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 138000 Force = -4.36
+2024-03-01 10:25:33,517 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 140000 Force = -4.48
+2024-03-01 10:25:33,977 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 142000 Force = -4.3
+2024-03-01 10:25:34,429 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 144000 Force = -4.35
+2024-03-01 10:25:34,883 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 146000 Force = -4.21
+2024-03-01 10:25:35,334 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 148000 Force = -2.94
+2024-03-01 10:25:35,796 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 150000 Force = 3
+2024-03-01 10:25:36,253 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 152000 Force = 98.46
+2024-03-01 10:25:36,715 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 154000 Force = 100.92
+2024-03-01 10:25:37,166 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 156000 Force = 100.09
+2024-03-01 10:25:37,614 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 158000 Force = 98.87
+2024-03-01 10:25:38,066 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 160000 Force = 100.95
+2024-03-01 10:25:39,678 [1] ERROR StepperWF.MacroRunner - SN 1122334455 Position= 180000 Force = 98.94
+2024-03-01 10:34:14,719 [1] INFO StepperWF.Program - SN12345 StepperDiag is starting...
+2024-03-01 10:37:44,275 [1] ERROR StepperWF.MacroRunner - SN 12345 Starting stamp test
+2024-03-01 10:37:51,426 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 20000 Force = -5.22
+2024-03-01 10:37:53,047 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 40000 Force = -4.79
+2024-03-01 10:37:54,672 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 60000 Force = -4.54
+2024-03-01 10:37:56,299 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 80000 Force = -4.4
+2024-03-01 10:37:57,928 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 100000 Force = -2.33
+2024-03-01 10:37:58,381 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 102000 Force = -3.48
+2024-03-01 10:37:58,835 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 104000 Force = -3.8
+2024-03-01 10:37:59,286 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 106000 Force = -3.79
+2024-03-01 10:37:59,740 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 108000 Force = -3.65
+2024-03-01 10:38:00,178 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 110000 Force = -3.99
+2024-03-01 10:38:00,632 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 112000 Force = -3.46
+2024-03-01 10:38:01,084 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 114000 Force = -3.77
+2024-03-01 10:38:01,533 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 116000 Force = -3.71
+2024-03-01 10:38:01,991 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 118000 Force = -3.75
+2024-03-01 10:38:02,442 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 120000 Force = -3.72
+2024-03-01 10:38:02,893 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 122000 Force = -3.71
+2024-03-01 10:38:03,344 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 124000 Force = -3.6
+2024-03-01 10:38:03,795 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 126000 Force = -3.47
+2024-03-01 10:38:04,248 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 128000 Force = -3.5
+2024-03-01 10:38:04,715 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 130000 Force = -3.25
+2024-03-01 10:38:05,159 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 132000 Force = -3.93
+2024-03-01 10:38:05,619 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 134000 Force = -3.55
+2024-03-01 10:38:06,077 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 136000 Force = -3.46
+2024-03-01 10:38:06,534 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 138000 Force = -2.89
+2024-03-01 10:38:06,985 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 140000 Force = -3.6
+2024-03-01 10:38:07,437 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 142000 Force = -3.6
+2024-03-01 10:38:07,893 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 144000 Force = -3.53
+2024-03-01 10:38:08,344 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 146000 Force = -3.17
+2024-03-01 10:38:08,801 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 148000 Force = -2.34
+2024-03-01 10:38:09,254 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 150000 Force = 4.66
+2024-03-01 10:38:09,706 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 152000 Force = 98.4
+2024-03-01 10:38:10,158 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 154000 Force = 100.79
+2024-03-01 10:38:10,612 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 156000 Force = 99.95
+2024-03-01 10:38:11,066 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 158000 Force = 100.08
+2024-03-01 10:38:11,527 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 160000 Force = 100.85
+2024-03-01 10:38:13,158 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 180000 Force = 101.38
+2024-03-01 10:41:36,324 [1] ERROR StepperWF.MacroRunner - SN 12345 Starting stamp test
+2024-03-01 10:41:43,427 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 20000 Force = -5.13
+2024-03-01 10:41:45,066 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 40000 Force = -5.03
+2024-03-01 10:41:46,689 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 60000 Force = -4.67
+2024-03-01 10:41:48,319 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 80000 Force = -0.33
+2024-03-01 10:41:49,944 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 100000 Force = 4.66
+2024-03-01 10:41:50,395 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 102000 Force = 4.24
+2024-03-01 10:41:50,847 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 104000 Force = 1.3
+2024-03-01 10:41:51,297 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 106000 Force = -0.79
+2024-03-01 10:41:51,755 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 108000 Force = 0.92
+2024-03-01 10:41:52,207 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 110000 Force = 0.71
+2024-03-01 10:41:52,658 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 112000 Force = 1.97
+2024-03-01 10:41:53,111 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 114000 Force = 0.09
+2024-03-01 10:41:53,568 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 116000 Force = 1.21
+2024-03-01 10:41:54,033 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 118000 Force = 3.57
+2024-03-01 10:41:54,491 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 120000 Force = 0.46
+2024-03-01 10:41:54,945 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 122000 Force = 2.66
+2024-03-01 10:41:55,396 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 124000 Force = 4.41
+2024-03-01 10:41:55,853 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 126000 Force = 0.99
+2024-03-01 10:41:56,306 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 128000 Force = 2.25
+2024-03-01 10:41:56,764 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 130000 Force = -0.89
+2024-03-01 10:41:57,219 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 132000 Force = -0.45
+2024-03-01 10:41:57,673 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 134000 Force = -2.56
+2024-03-01 10:41:58,126 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 136000 Force = -0.93
+2024-03-01 10:41:58,580 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 138000 Force = -0.83
+2024-03-01 10:41:59,037 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 140000 Force = -0.21
+2024-03-01 10:41:59,500 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 142000 Force = -0.95
+2024-03-01 10:41:59,957 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 144000 Force = 2.89
+2024-03-01 10:42:00,411 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 146000 Force = -0.3
+2024-03-01 10:42:00,865 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 148000 Force = 4.13
+2024-03-01 10:42:01,317 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 150000 Force = 3.13
+2024-03-01 10:42:01,771 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 152000 Force = 101.41
+2024-03-01 10:42:02,222 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 154000 Force = 113.8
+2024-03-01 10:42:02,672 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 156000 Force = 115.71
+2024-03-01 10:42:03,133 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 158000 Force = 114.51
+2024-03-01 10:42:03,587 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 160000 Force = 112.97
+2024-03-01 10:42:05,206 [1] ERROR StepperWF.MacroRunner - SN 12345 Position= 180000 Force = 113.88
+2024-03-01 11:12:06,057 [1] INFO StepperWF.Program - SNs22 StepperDiag is starting...
+2024-03-01 11:13:48,093 [1] ERROR StepperWF.MacroRunner - SN s22 Starting stamp test
+2024-03-01 11:13:55,265 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 20000 Force = -0.99
+2024-03-01 11:13:56,821 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 40000 Force = 0.98
+2024-03-01 11:13:58,362 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 60000 Force = 12.41
+2024-03-01 11:13:59,902 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 80000 Force = 19.17
+2024-03-01 11:14:01,443 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 100000 Force = 20.78
+2024-03-01 11:14:01,900 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 102000 Force = 22.62
+2024-03-01 11:14:02,354 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 104000 Force = 25.59
+2024-03-01 11:14:02,810 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 106000 Force = 25.01
+2024-03-01 11:14:03,249 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 108000 Force = 25.45
+2024-03-01 11:14:03,706 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 110000 Force = 24.58
+2024-03-01 11:14:04,160 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 112000 Force = 24.71
+2024-03-01 11:14:04,617 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 114000 Force = 23.7
+2024-03-01 11:14:05,057 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 116000 Force = 23.74
+2024-03-01 11:14:05,513 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 118000 Force = 24.59
+2024-03-01 11:14:05,968 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 120000 Force = 25.22
+2024-03-01 11:14:06,424 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 122000 Force = 25.04
+2024-03-01 11:14:06,879 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 124000 Force = 25.52
+2024-03-01 11:14:07,323 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 126000 Force = 28.05
+2024-03-01 11:14:07,775 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 128000 Force = 28.84
+2024-03-01 11:14:08,230 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 130000 Force = 31.32
+2024-03-01 11:14:08,686 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 132000 Force = 28.9
+2024-03-01 11:14:09,126 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 134000 Force = 30.8
+2024-03-01 11:14:09,582 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 136000 Force = 38.99
+2024-03-01 11:14:10,035 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 138000 Force = 75.43
+2024-03-01 11:14:10,479 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 140000 Force = 97.59
+2024-03-01 11:14:10,936 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 142000 Force = 111.1
+2024-03-01 11:14:11,391 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 144000 Force = 118.39
+2024-03-01 11:14:11,832 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 146000 Force = 119.79
+2024-03-01 11:14:12,288 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 148000 Force = 119.8
+2024-03-01 11:14:12,744 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 150000 Force = 120.21
+2024-03-01 11:14:13,184 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 152000 Force = 120.08
+2024-03-01 11:14:13,639 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 154000 Force = 120.5
+2024-03-01 11:14:14,078 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 156000 Force = 120.73
+2024-03-01 11:14:14,534 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 158000 Force = 120.77
+2024-03-01 11:14:14,990 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 160000 Force = 120.44
+2024-03-01 11:14:16,536 [1] ERROR StepperWF.MacroRunner - SN s22 Position= 180000 Force = 119.95
+2024-03-04 13:46:03,532 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 13:48:12,399 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 13:50:41,230 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 13:53:13,308 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 13:56:28,362 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 13:56:43,564 [1] ERROR StepperWF.MacroRunner - SN 24q4 Starting stamp test
+2024-03-04 13:56:50,691 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 20000 Force = -5.2
+2024-03-04 13:56:52,321 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 40000 Force = -4.25
+2024-03-04 13:56:53,942 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 60000 Force = 2.6
+2024-03-04 13:56:55,595 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 80000 Force = 7.02
+2024-03-04 13:56:57,207 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 100000 Force = 10.31
+2024-03-04 13:56:57,663 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 102000 Force = 11.27
+2024-03-04 13:56:58,148 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 104000 Force = 11.41
+2024-03-04 13:56:58,596 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 106000 Force = 11.34
+2024-03-04 13:56:59,049 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 108000 Force = 13.23
+2024-03-04 13:56:59,499 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 110000 Force = 12.07
+2024-03-04 13:56:59,962 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 112000 Force = 13.23
+2024-03-04 13:57:00,410 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 114000 Force = 13.03
+2024-03-04 13:57:00,869 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 116000 Force = 13.95
+2024-03-04 13:57:01,352 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 118000 Force = 14.33
+2024-03-04 13:57:01,806 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 120000 Force = 14.27
+2024-03-04 13:57:02,267 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 122000 Force = 15.74
+2024-03-04 13:57:02,719 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 124000 Force = 16.44
+2024-03-04 13:57:03,175 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 126000 Force = 17.55
+2024-03-04 13:57:03,619 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 128000 Force = 18.7
+2024-03-04 13:57:04,082 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 130000 Force = 19.91
+2024-03-04 13:57:04,563 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 132000 Force = 34.39
+2024-03-04 13:57:05,017 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 134000 Force = 61.35
+2024-03-04 13:57:05,467 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 136000 Force = 79
+2024-03-04 13:57:05,923 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 138000 Force = 98.99
+2024-03-04 13:57:06,376 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 140000 Force = 99.87
+2024-03-04 13:57:06,832 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 142000 Force = 100.33
+2024-03-04 13:57:07,297 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 144000 Force = 100.78
+2024-03-04 13:57:07,771 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 146000 Force = 101.35
+2024-03-04 13:57:08,231 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 148000 Force = 100.45
+2024-03-04 13:57:08,705 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 150000 Force = 101.16
+2024-03-04 13:57:09,162 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 152000 Force = 101.7
+2024-03-04 13:57:09,617 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 154000 Force = 101
+2024-03-04 13:57:10,059 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 156000 Force = 101.36
+2024-03-04 13:57:10,526 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 158000 Force = 101.09
+2024-03-04 13:57:11,002 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 160000 Force = 101.86
+2024-03-04 13:57:12,630 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 180000 Force = 100.42
+2024-03-04 13:58:37,449 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 13:58:58,626 [1] ERROR StepperWF.MacroRunner - SN 24q4 Starting stamp test
+2024-03-04 13:59:05,773 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 20000 Force = -5.24
+2024-03-04 13:59:07,396 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 40000 Force = -3.34
+2024-03-04 13:59:09,026 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 60000 Force = 2.2
+2024-03-04 13:59:10,678 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 80000 Force = 5.89
+2024-03-04 13:59:12,293 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 100000 Force = 9.32
+2024-03-04 13:59:12,749 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 102000 Force = 10.15
+2024-03-04 13:59:13,189 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 104000 Force = 10.13
+2024-03-04 13:59:13,672 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 106000 Force = 11.25
+2024-03-04 13:59:14,123 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 108000 Force = 11.01
+2024-03-04 13:59:14,566 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 110000 Force = 11.88
+2024-03-04 13:59:15,031 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 112000 Force = 12.04
+2024-03-04 13:59:15,501 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 114000 Force = 12.21
+2024-03-04 13:59:15,960 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 116000 Force = 12.12
+2024-03-04 13:59:16,402 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 118000 Force = 12.93
+2024-03-04 13:59:16,874 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 120000 Force = 13.29
+2024-03-04 13:59:17,347 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 122000 Force = 14.1
+2024-03-04 13:59:17,789 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 124000 Force = 14.94
+2024-03-04 13:59:18,244 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 126000 Force = 16.26
+2024-03-04 13:59:18,693 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 128000 Force = 17.18
+2024-03-04 13:59:19,156 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 130000 Force = 18.19
+2024-03-04 13:59:19,608 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 132000 Force = 19.13
+2024-03-04 13:59:20,071 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 134000 Force = 36.87
+2024-03-04 13:59:20,540 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 136000 Force = 77.09
+2024-03-04 13:59:20,989 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 138000 Force = 99.41
+2024-03-04 13:59:21,437 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 140000 Force = 100.51
+2024-03-04 13:59:21,893 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 142000 Force = 101.27
+2024-03-04 13:59:22,341 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 144000 Force = 100.76
+2024-03-04 13:59:22,790 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 146000 Force = 100.1
+2024-03-04 13:59:23,239 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 148000 Force = 100.89
+2024-03-04 13:59:23,701 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 150000 Force = 100.26
+2024-03-04 13:59:24,165 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 152000 Force = 101.15
+2024-03-04 13:59:24,622 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 154000 Force = 100.57
+2024-03-04 13:59:25,065 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 156000 Force = 99.91
+2024-03-04 13:59:25,526 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 158000 Force = 100.94
+2024-03-04 13:59:25,986 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 160000 Force = 100.24
+2024-03-04 13:59:27,617 [1] ERROR StepperWF.MacroRunner - SN 24q4 Position= 180000 Force = 100.48
+2024-03-04 14:05:00,108 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:12:42,193 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:14:31,772 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:15:49,503 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:16:57,478 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:19:06,034 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:20:25,417 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:27:31,210 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:29:37,034 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:33:43,232 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:38:26,058 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 14:46:12,223 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 15:00:56,352 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 15:03:43,349 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 15:23:22,712 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 15:40:29,201 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 15:45:01,659 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 15:49:09,408 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 15:53:07,369 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 16:16:38,053 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 16:17:23,352 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 16:26:11,154 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-04 17:25:26,357 [1] INFO StepperWF.Program - SN24q4 StepperDiag is starting...
+2024-03-19 13:58:28,652 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-20 10:27:28,648 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 14:21:04,025 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 14:22:37,257 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 14:24:11,407 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 14:25:27,113 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 14:29:33,574 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 14:29:40,694 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 11.13
+2024-03-25 14:29:42,235 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 12.23
+2024-03-25 14:29:43,789 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 12.03
+2024-03-25 14:29:45,331 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 14.15
+2024-03-25 14:29:46,873 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 16.38
+2024-03-25 14:29:47,331 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 18.41
+2024-03-25 14:29:47,784 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 17.84
+2024-03-25 14:29:48,241 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 17.25
+2024-03-25 14:29:48,696 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 22.64
+2024-03-25 14:29:49,152 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 32.99
+2024-03-25 14:29:49,608 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 29.43
+2024-03-25 14:29:50,064 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 23.61
+2024-03-25 14:29:50,520 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 24.92
+2024-03-25 14:29:50,976 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 26.11
+2024-03-25 14:29:51,432 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 24.83
+2024-03-25 14:29:51,888 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 23.36
+2024-03-25 14:29:52,344 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 21.34
+2024-03-25 14:29:52,800 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 21.73
+2024-03-25 14:29:53,271 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 23.67
+2024-03-25 14:29:53,726 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 22.57
+2024-03-25 14:29:54,182 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 21.42
+2024-03-25 14:29:54,637 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 27.17
+2024-03-25 14:29:55,094 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 30.68
+2024-03-25 14:29:55,551 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 25.12
+2024-03-25 14:29:56,006 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 24
+2024-03-25 14:29:56,462 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 23.13
+2024-03-25 14:29:56,918 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = 23.63
+2024-03-25 14:29:57,373 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = 22.72
+2024-03-25 14:29:57,827 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = 22.15
+2024-03-25 14:29:58,282 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = 20.76
+2024-03-25 14:29:58,739 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = 23.94
+2024-03-25 14:29:59,195 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = 112.69
+2024-03-25 14:29:59,650 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = 117.17
+2024-03-25 14:30:00,107 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = 118.54
+2024-03-25 14:30:00,562 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = 117.94
+2024-03-25 14:30:02,120 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 118.45
+2024-03-25 14:33:20,702 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 14:33:27,809 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 17.83
+2024-03-25 14:33:29,345 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 19.59
+2024-03-25 14:33:30,874 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 24.08
+2024-03-25 14:33:32,414 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 26.19
+2024-03-25 14:33:33,955 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 27.87
+2024-03-25 14:33:34,410 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 28.03
+2024-03-25 14:33:34,865 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 28.17
+2024-03-25 14:33:35,305 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 28.25
+2024-03-25 14:33:35,760 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 28.6
+2024-03-25 14:33:36,217 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 28.76
+2024-03-25 14:33:36,673 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 28.83
+2024-03-25 14:33:37,128 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 29.25
+2024-03-25 14:33:37,583 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 29.4
+2024-03-25 14:33:38,054 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 33.83
+2024-03-25 14:33:38,508 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 42.83
+2024-03-25 14:33:38,965 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 59.14
+2024-03-25 14:33:39,435 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 70.9
+2024-03-25 14:33:39,874 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 78.86
+2024-03-25 14:33:40,329 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 86.57
+2024-03-25 14:33:40,785 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 93.55
+2024-03-25 14:33:41,241 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 99.1
+2024-03-25 14:33:41,697 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 99.48
+2024-03-25 14:33:42,152 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 99.58
+2024-03-25 14:33:42,608 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 99.64
+2024-03-25 14:33:43,065 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 99.73
+2024-03-25 14:33:43,505 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 99.37
+2024-03-25 14:33:43,961 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = 99.63
+2024-03-25 14:33:44,417 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = 99.33
+2024-03-25 14:33:44,879 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = 99.51
+2024-03-25 14:33:45,331 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = 99.22
+2024-03-25 14:33:45,785 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = 99.04
+2024-03-25 14:33:46,240 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = 99.26
+2024-03-25 14:33:46,696 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = 99.03
+2024-03-25 14:33:47,152 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = 99.25
+2024-03-25 14:33:47,607 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = 98.99
+2024-03-25 14:33:49,146 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 99.07
+2024-03-25 15:39:18,006 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 15:42:34,967 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:35,109 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:39,573 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 15:42:46,729 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:46,729 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = Position= 20000 Force = %forceleft%
+2024-03-25 15:42:48,285 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:48,286 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = Position= 40000 Force = %forceleft%
+2024-03-25 15:42:49,826 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:49,826 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = Position= 60000 Force = %forceleft%
+2024-03-25 15:42:51,374 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:51,374 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = Position= 80000 Force = %forceleft%
+2024-03-25 15:42:52,918 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:52,918 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = Position= 100000 Force = %forceleft%
+2024-03-25 15:42:53,379 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:53,379 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = Position= 102000 Force = %forceleft%
+2024-03-25 15:42:53,826 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:53,826 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = Position= 104000 Force = %forceleft%
+2024-03-25 15:42:54,288 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:54,288 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = Position= 106000 Force = %forceleft%
+2024-03-25 15:42:54,734 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:54,734 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = Position= 108000 Force = %forceleft%
+2024-03-25 15:42:55,179 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:55,179 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = Position= 110000 Force = %forceleft%
+2024-03-25 15:42:55,653 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:55,653 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = Position= 112000 Force = %forceleft%
+2024-03-25 15:42:56,107 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:56,107 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = Position= 114000 Force = %forceleft%
+2024-03-25 15:42:56,568 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:56,568 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = Position= 116000 Force = %forceleft%
+2024-03-25 15:42:57,017 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:57,017 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = Position= 118000 Force = %forceleft%
+2024-03-25 15:42:57,476 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:57,476 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = Position= 120000 Force = %forceleft%
+2024-03-25 15:42:57,919 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:57,919 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = Position= 122000 Force = %forceleft%
+2024-03-25 15:42:58,376 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:58,376 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = Position= 124000 Force = %forceleft%
+2024-03-25 15:42:58,833 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:58,833 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = Position= 126000 Force = %forceleft%
+2024-03-25 15:42:59,291 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:59,291 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = Position= 128000 Force = %forceleft%
+2024-03-25 15:42:59,749 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:42:59,749 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = Position= 130000 Force = %forceleft%
+2024-03-25 15:43:00,195 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:00,195 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = Position= 132000 Force = %forceleft%
+2024-03-25 15:43:00,651 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:00,651 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = Position= 134000 Force = %forceleft%
+2024-03-25 15:43:01,093 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:01,109 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = Position= 136000 Force = %forceleft%
+2024-03-25 15:43:01,551 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:01,551 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = Position= 138000 Force = %forceleft%
+2024-03-25 15:43:02,011 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:02,011 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = Position= 140000 Force = %forceleft%
+2024-03-25 15:43:02,448 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:02,448 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = Position= 142000 Force = %forceleft%
+2024-03-25 15:43:02,902 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:02,902 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = Position= 144000 Force = %forceleft%
+2024-03-25 15:43:03,358 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:03,358 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = Position= 146000 Force = %forceleft%
+2024-03-25 15:43:03,798 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:03,814 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = Position= 148000 Force = %forceleft%
+2024-03-25 15:43:04,258 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:04,270 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = Position= 150000 Force = %forceleft%
+2024-03-25 15:43:04,721 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:04,721 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = Position= 152000 Force = %forceleft%
+2024-03-25 15:43:05,178 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:05,178 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = Position= 154000 Force = %forceleft%
+2024-03-25 15:43:05,630 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:05,631 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = Position= 156000 Force = %forceleft%
+2024-03-25 15:43:06,085 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:06,085 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = Position= 158000 Force = %forceleft%
+2024-03-25 15:43:06,532 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:06,541 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = Position= 160000 Force = %forceleft%
+2024-03-25 15:43:08,089 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:43:08,089 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = Position= 180000 Force = %forceleft%
+2024-03-25 15:48:09,813 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 15:49:06,220 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:06,316 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:15,747 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 15:49:22,915 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:22,915 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = Position= 20000 Force = %forceleft%
+2024-03-25 15:49:24,462 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:24,462 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = Position= 40000 Force = %forceleft%
+2024-03-25 15:49:26,004 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:26,004 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = Position= 60000 Force = %forceleft%
+2024-03-25 15:49:27,545 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:27,545 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = Position= 80000 Force = %forceleft%
+2024-03-25 15:49:29,096 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:29,096 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = Position= 100000 Force = %forceleft%
+2024-03-25 15:49:29,570 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:29,571 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = Position= 102000 Force = %forceleft%
+2024-03-25 15:49:30,016 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:30,016 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = Position= 104000 Force = %forceleft%
+2024-03-25 15:49:30,474 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:30,474 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = Position= 106000 Force = %forceleft%
+2024-03-25 15:49:30,920 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:30,920 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = Position= 108000 Force = %forceleft%
+2024-03-25 15:49:31,372 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:31,372 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = Position= 110000 Force = %forceleft%
+2024-03-25 15:49:31,826 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:31,826 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = Position= 112000 Force = %forceleft%
+2024-03-25 15:49:32,278 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:32,278 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = Position= 114000 Force = %forceleft%
+2024-03-25 15:49:32,738 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:32,738 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = Position= 116000 Force = %forceleft%
+2024-03-25 15:49:33,182 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:33,182 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = Position= 118000 Force = %forceleft%
+2024-03-25 15:49:33,641 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:33,641 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = Position= 120000 Force = %forceleft%
+2024-03-25 15:49:34,101 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:34,101 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = Position= 122000 Force = %forceleft%
+2024-03-25 15:49:34,545 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:34,545 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = Position= 124000 Force = %forceleft%
+2024-03-25 15:49:35,006 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:35,006 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = Position= 126000 Force = %forceleft%
+2024-03-25 15:49:35,455 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:35,455 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = Position= 128000 Force = %forceleft%
+2024-03-25 15:49:35,913 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:35,913 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = Position= 130000 Force = %forceleft%
+2024-03-25 15:49:36,376 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:36,376 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = Position= 132000 Force = %forceleft%
+2024-03-25 15:49:36,833 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:36,833 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = Position= 134000 Force = %forceleft%
+2024-03-25 15:49:37,272 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:37,272 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = Position= 136000 Force = %forceleft%
+2024-03-25 15:49:37,732 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:37,732 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = Position= 138000 Force = %forceleft%
+2024-03-25 15:49:38,178 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:38,178 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = Position= 140000 Force = %forceleft%
+2024-03-25 15:49:38,621 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:38,621 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = Position= 142000 Force = %forceleft%
+2024-03-25 15:49:39,063 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:39,063 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = Position= 144000 Force = %forceleft%
+2024-03-25 15:49:39,523 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:39,523 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = Position= 146000 Force = %forceleft%
+2024-03-25 15:49:39,985 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:39,986 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = Position= 148000 Force = %forceleft%
+2024-03-25 15:49:40,444 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:40,445 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = Position= 150000 Force = %forceleft%
+2024-03-25 15:49:40,904 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:40,904 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = Position= 152000 Force = %forceleft%
+2024-03-25 15:49:41,350 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:41,350 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = Position= 154000 Force = %forceleft%
+2024-03-25 15:49:41,810 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:41,810 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = Position= 156000 Force = %forceleft%
+2024-03-25 15:49:42,256 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:42,256 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = Position= 158000 Force = %forceleft%
+2024-03-25 15:49:42,701 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:42,701 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = Position= 160000 Force = %forceleft%
+2024-03-25 15:49:44,255 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:49:44,255 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = Position= 180000 Force = %forceleft%
+2024-03-25 15:50:44,969 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 15:50:52,094 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 17.07
+2024-03-25 15:50:53,621 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 17.35
+2024-03-25 15:50:55,145 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 17.29
+2024-03-25 15:50:56,686 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 17.62
+2024-03-25 15:50:58,223 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 17.93
+2024-03-25 15:50:58,682 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 18.02
+2024-03-25 15:50:59,145 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 17.98
+2024-03-25 15:50:59,611 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 17.73
+2024-03-25 15:51:00,062 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 17.69
+2024-03-25 15:51:00,508 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 18.07
+2024-03-25 15:51:00,966 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 18.03
+2024-03-25 15:51:01,411 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 18.12
+2024-03-25 15:51:01,868 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 18.15
+2024-03-25 15:51:02,329 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 18.85
+2024-03-25 15:51:02,772 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 19.03
+2024-03-25 15:51:03,237 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 19.56
+2024-03-25 15:51:03,684 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 19.87
+2024-03-25 15:51:04,128 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 20.39
+2024-03-25 15:51:04,589 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 20.57
+2024-03-25 15:51:05,048 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 20.57
+2024-03-25 15:51:05,492 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 20.66
+2024-03-25 15:51:05,952 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 20.59
+2024-03-25 15:51:06,410 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 20.29
+2024-03-25 15:51:06,871 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 20.2
+2024-03-25 15:51:07,324 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 20.11
+2024-03-25 15:51:07,778 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 20.18
+2024-03-25 15:51:08,237 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = 20.15
+2024-03-25 15:51:08,683 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = 19.91
+2024-03-25 15:51:09,129 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = 20.44
+2024-03-25 15:51:09,596 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = 20.72
+2024-03-25 15:51:10,040 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = 21.07
+2024-03-25 15:51:10,502 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = 93.66
+2024-03-25 15:51:10,942 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = 99.23
+2024-03-25 15:51:11,401 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = 99.99
+2024-03-25 15:51:11,861 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = 99.36
+2024-03-25 15:51:13,385 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 99.81
+2024-03-25 15:56:04,656 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:04,736 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:41,047 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 15:56:48,212 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:48,212 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = Position= 20000 Force = %forceleft%
+2024-03-25 15:56:49,758 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:49,758 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = Position= 40000 Force = %forceleft%
+2024-03-25 15:56:51,300 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:51,300 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = Position= 60000 Force = %forceleft%
+2024-03-25 15:56:52,855 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:52,855 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = Position= 80000 Force = %forceleft%
+2024-03-25 15:56:54,405 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:54,405 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = Position= 100000 Force = %forceleft%
+2024-03-25 15:56:54,870 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:54,870 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = Position= 102000 Force = %forceleft%
+2024-03-25 15:56:55,325 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:55,325 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = Position= 104000 Force = %forceleft%
+2024-03-25 15:56:55,783 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:55,783 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = Position= 106000 Force = %forceleft%
+2024-03-25 15:56:56,210 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:56,210 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = Position= 108000 Force = %forceleft%
+2024-03-25 15:56:56,667 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:56,667 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = Position= 110000 Force = %forceleft%
+2024-03-25 15:56:57,126 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:57,126 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = Position= 112000 Force = %forceleft%
+2024-03-25 15:56:57,570 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:57,570 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = Position= 114000 Force = %forceleft%
+2024-03-25 15:56:58,029 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:58,029 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = Position= 116000 Force = %forceleft%
+2024-03-25 15:56:58,486 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:58,486 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = Position= 118000 Force = %forceleft%
+2024-03-25 15:56:58,929 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:58,929 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = Position= 120000 Force = %forceleft%
+2024-03-25 15:56:59,388 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:59,388 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = Position= 122000 Force = %forceleft%
+2024-03-25 15:56:59,847 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:56:59,847 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = Position= 124000 Force = %forceleft%
+2024-03-25 15:57:00,292 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:00,292 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = Position= 126000 Force = %forceleft%
+2024-03-25 15:57:00,742 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:00,742 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = Position= 128000 Force = %forceleft%
+2024-03-25 15:57:01,186 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:01,186 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = Position= 130000 Force = %forceleft%
+2024-03-25 15:57:01,636 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:01,636 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = Position= 132000 Force = %forceleft%
+2024-03-25 15:57:02,100 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:02,100 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = Position= 134000 Force = %forceleft%
+2024-03-25 15:57:02,561 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:02,561 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = Position= 136000 Force = %forceleft%
+2024-03-25 15:57:03,015 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:03,015 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = Position= 138000 Force = %forceleft%
+2024-03-25 15:57:03,459 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:03,459 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = Position= 140000 Force = %forceleft%
+2024-03-25 15:57:03,919 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:03,919 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = Position= 142000 Force = %forceleft%
+2024-03-25 15:57:04,366 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:04,366 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = Position= 144000 Force = %forceleft%
+2024-03-25 15:57:04,831 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:04,831 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = Position= 146000 Force = %forceleft%
+2024-03-25 15:57:05,291 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:05,291 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = Position= 148000 Force = %forceleft%
+2024-03-25 15:57:05,735 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:05,735 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = Position= 150000 Force = %forceleft%
+2024-03-25 15:57:06,195 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:06,197 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = Position= 152000 Force = %forceleft%
+2024-03-25 15:57:06,654 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:06,654 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = Position= 154000 Force = %forceleft%
+2024-03-25 15:57:07,100 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:07,100 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = Position= 156000 Force = %forceleft%
+2024-03-25 15:57:07,559 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:07,559 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = Position= 158000 Force = %forceleft%
+2024-03-25 15:57:08,017 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:08,017 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = Position= 160000 Force = %forceleft%
+2024-03-25 15:57:09,554 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:57:09,554 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = Position= 180000 Force = %forceleft%
+2024-03-25 15:58:10,012 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 15:58:17,125 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 12.63
+2024-03-25 15:58:18,656 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 18.05
+2024-03-25 15:58:20,204 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 20.71
+2024-03-25 15:58:21,728 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 23.3
+2024-03-25 15:58:23,249 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 25.77
+2024-03-25 15:58:23,708 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 26.32
+2024-03-25 15:58:24,154 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 26.58
+2024-03-25 15:58:24,616 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 26.66
+2024-03-25 15:58:25,083 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 27.32
+2024-03-25 15:58:25,534 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 27.64
+2024-03-25 15:58:25,981 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 29.53
+2024-03-25 15:58:26,431 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 37.96
+2024-03-25 15:58:26,882 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 62.86
+2024-03-25 15:58:27,322 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 81.08
+2024-03-25 15:58:27,783 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 96.33
+2024-03-25 15:58:28,245 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 99.67
+2024-03-25 15:58:28,688 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 100.11
+2024-03-25 15:58:29,134 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 100.35
+2024-03-25 15:58:29,590 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 100.06
+2024-03-25 15:58:30,047 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 100.46
+2024-03-25 15:58:30,496 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 100.2
+2024-03-25 15:58:30,956 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 100.07
+2024-03-25 15:58:31,409 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 100.43
+2024-03-25 15:58:31,856 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 100
+2024-03-25 15:58:32,313 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 100.45
+2024-03-25 15:58:32,763 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 100.2
+2024-03-25 15:58:33,219 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = 100.01
+2024-03-25 15:58:33,667 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = 100.3
+2024-03-25 15:58:34,127 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = 99.99
+2024-03-25 15:58:34,586 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = 99.78
+2024-03-25 15:58:35,032 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = 100.21
+2024-03-25 15:58:35,498 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = 99.84
+2024-03-25 15:58:35,939 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = 100.23
+2024-03-25 15:58:36,398 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = 100.02
+2024-03-25 15:58:36,861 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = 99.73
+2024-03-25 15:58:38,398 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 99.89
+2024-03-25 15:59:11,100 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:11,192 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:31,423 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 15:59:38,576 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:38,576 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = Position= 20000 Force = %forceleft%
+2024-03-25 15:59:40,127 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:40,127 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = Position= 40000 Force = %forceleft%
+2024-03-25 15:59:41,675 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:41,675 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = Position= 60000 Force = %forceleft%
+2024-03-25 15:59:43,216 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:43,216 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = Position= 80000 Force = %forceleft%
+2024-03-25 15:59:44,770 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:44,770 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = Position= 100000 Force = %forceleft%
+2024-03-25 15:59:45,215 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:45,215 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = Position= 102000 Force = %forceleft%
+2024-03-25 15:59:45,677 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:45,677 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = Position= 104000 Force = %forceleft%
+2024-03-25 15:59:46,119 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:46,119 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = Position= 106000 Force = %forceleft%
+2024-03-25 15:59:46,580 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:46,580 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = Position= 108000 Force = %forceleft%
+2024-03-25 15:59:47,025 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:47,025 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = Position= 110000 Force = %forceleft%
+2024-03-25 15:59:47,482 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:47,482 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = Position= 112000 Force = %forceleft%
+2024-03-25 15:59:47,935 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:47,935 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = Position= 114000 Force = %forceleft%
+2024-03-25 15:59:48,383 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:48,396 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = Position= 116000 Force = %forceleft%
+2024-03-25 15:59:48,837 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:48,837 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = Position= 118000 Force = %forceleft%
+2024-03-25 15:59:49,296 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:49,296 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = Position= 120000 Force = %forceleft%
+2024-03-25 15:59:49,741 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:49,741 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = Position= 122000 Force = %forceleft%
+2024-03-25 15:59:50,205 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:50,205 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = Position= 124000 Force = %forceleft%
+2024-03-25 15:59:50,646 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:50,646 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = Position= 126000 Force = %forceleft%
+2024-03-25 15:59:51,103 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:51,103 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = Position= 128000 Force = %forceleft%
+2024-03-25 15:59:51,554 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:51,554 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = Position= 130000 Force = %forceleft%
+2024-03-25 15:59:52,008 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:52,008 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = Position= 132000 Force = %forceleft%
+2024-03-25 15:59:52,465 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:52,465 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = Position= 134000 Force = %forceleft%
+2024-03-25 15:59:52,922 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:52,922 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = Position= 136000 Force = %forceleft%
+2024-03-25 15:59:53,373 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:53,373 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = Position= 138000 Force = %forceleft%
+2024-03-25 15:59:53,829 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:53,829 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = Position= 140000 Force = %forceleft%
+2024-03-25 15:59:54,288 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:54,288 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = Position= 142000 Force = %forceleft%
+2024-03-25 15:59:54,746 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:54,746 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = Position= 144000 Force = %forceleft%
+2024-03-25 15:59:55,207 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:55,207 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = Position= 146000 Force = %forceleft%
+2024-03-25 15:59:55,674 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:55,674 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = Position= 148000 Force = %forceleft%
+2024-03-25 15:59:56,118 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:56,132 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = Position= 150000 Force = %forceleft%
+2024-03-25 15:59:56,575 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:56,575 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = Position= 152000 Force = %forceleft%
+2024-03-25 15:59:57,019 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:57,019 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = Position= 154000 Force = %forceleft%
+2024-03-25 15:59:57,480 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:57,480 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = Position= 156000 Force = %forceleft%
+2024-03-25 15:59:57,940 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:57,940 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = Position= 158000 Force = %forceleft%
+2024-03-25 15:59:58,384 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:58,384 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = Position= 160000 Force = %forceleft%
+2024-03-25 15:59:59,923 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 15:59:59,923 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = Position= 180000 Force = %forceleft%
+2024-03-25 16:05:33,930 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:05:49,649 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:05:49,691 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:05:54,345 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:06:01,475 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:01,476 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = Position= 20000 Force = %forceleft%
+2024-03-25 16:06:03,023 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:03,024 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = Position= 40000 Force = %forceleft%
+2024-03-25 16:06:04,548 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:04,548 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = Position= 60000 Force = %forceleft%
+2024-03-25 16:06:06,105 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:06,105 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = Position= 80000 Force = %forceleft%
+2024-03-25 16:06:07,659 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:07,659 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = Position= 100000 Force = %forceleft%
+2024-03-25 16:06:08,104 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:08,104 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = Position= 102000 Force = %forceleft%
+2024-03-25 16:06:08,565 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:08,565 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = Position= 104000 Force = %forceleft%
+2024-03-25 16:06:09,026 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:09,026 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = Position= 106000 Force = %forceleft%
+2024-03-25 16:06:09,456 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:09,456 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = Position= 108000 Force = %forceleft%
+2024-03-25 16:06:09,915 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:09,915 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = Position= 110000 Force = %forceleft%
+2024-03-25 16:06:10,376 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:10,376 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = Position= 112000 Force = %forceleft%
+2024-03-25 16:06:10,822 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:10,822 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = Position= 114000 Force = %forceleft%
+2024-03-25 16:06:11,281 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:11,281 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = Position= 116000 Force = %forceleft%
+2024-03-25 16:06:11,740 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:11,740 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = Position= 118000 Force = %forceleft%
+2024-03-25 16:06:12,184 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:12,184 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = Position= 120000 Force = %forceleft%
+2024-03-25 16:06:12,647 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:12,647 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = Position= 122000 Force = %forceleft%
+2024-03-25 16:06:13,117 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:13,117 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = Position= 124000 Force = %forceleft%
+2024-03-25 16:06:13,561 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:13,561 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = Position= 126000 Force = %forceleft%
+2024-03-25 16:06:14,007 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:14,007 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = Position= 128000 Force = %forceleft%
+2024-03-25 16:06:14,464 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:14,464 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = Position= 130000 Force = %forceleft%
+2024-03-25 16:06:14,907 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:14,907 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = Position= 132000 Force = %forceleft%
+2024-03-25 16:06:15,368 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:15,368 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = Position= 134000 Force = %forceleft%
+2024-03-25 16:06:15,829 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:15,829 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = Position= 136000 Force = %forceleft%
+2024-03-25 16:06:16,274 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:16,274 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = Position= 138000 Force = %forceleft%
+2024-03-25 16:06:16,734 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:16,734 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = Position= 140000 Force = %forceleft%
+2024-03-25 16:06:17,194 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:17,194 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = Position= 142000 Force = %forceleft%
+2024-03-25 16:06:17,652 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:17,652 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = Position= 144000 Force = %forceleft%
+2024-03-25 16:06:18,098 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:18,098 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = Position= 146000 Force = %forceleft%
+2024-03-25 16:06:18,540 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:18,556 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = Position= 148000 Force = %forceleft%
+2024-03-25 16:06:18,999 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:18,999 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = Position= 150000 Force = %forceleft%
+2024-03-25 16:06:19,441 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:19,441 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = Position= 152000 Force = %forceleft%
+2024-03-25 16:06:19,890 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:19,890 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = Position= 154000 Force = %forceleft%
+2024-03-25 16:06:20,347 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:20,347 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = Position= 156000 Force = %forceleft%
+2024-03-25 16:06:20,807 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:20,811 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = Position= 158000 Force = %forceleft%
+2024-03-25 16:06:21,253 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:21,253 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = Position= 160000 Force = %forceleft%
+2024-03-25 16:06:22,801 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:06:22,801 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = Position= 180000 Force = %forceleft%
+2024-03-25 16:07:10,577 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:07:17,699 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 7.1
+2024-03-25 16:07:19,238 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 17.73
+2024-03-25 16:07:20,758 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 20.3
+2024-03-25 16:07:22,311 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 21.87
+2024-03-25 16:07:23,846 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 24.73
+2024-03-25 16:07:24,302 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 25
+2024-03-25 16:07:24,750 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 25.17
+2024-03-25 16:07:25,192 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 25.59
+2024-03-25 16:07:25,654 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 25.76
+2024-03-25 16:07:26,095 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 26.19
+2024-03-25 16:07:26,554 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 26.45
+2024-03-25 16:07:27,015 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 27.14
+2024-03-25 16:07:27,462 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 28.22
+2024-03-25 16:07:27,920 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 34.59
+2024-03-25 16:07:28,368 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 58.01
+2024-03-25 16:07:28,827 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 79.37
+2024-03-25 16:07:29,289 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 95.73
+2024-03-25 16:07:29,745 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 100.26
+2024-03-25 16:07:30,194 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 100.31
+2024-03-25 16:07:30,652 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 100.67
+2024-03-25 16:07:31,111 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 100.6
+2024-03-25 16:07:31,558 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 100.77
+2024-03-25 16:07:32,004 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 100.63
+2024-03-25 16:07:32,467 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 100.85
+2024-03-25 16:07:32,924 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 100.63
+2024-03-25 16:07:33,369 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 100.47
+2024-03-25 16:07:33,827 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 144000 Force = 100.82
+2024-03-25 16:07:34,287 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 146000 Force = 100.62
+2024-03-25 16:07:34,731 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 148000 Force = 100.44
+2024-03-25 16:07:35,192 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 150000 Force = 100.78
+2024-03-25 16:07:35,634 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 152000 Force = 100.33
+2024-03-25 16:07:36,093 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 154000 Force = 100.79
+2024-03-25 16:07:36,536 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 156000 Force = 100.5
+2024-03-25 16:07:36,996 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 158000 Force = 100.3
+2024-03-25 16:07:37,460 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 160000 Force = 100.62
+2024-03-25 16:07:38,995 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 100.88
+2024-03-25 16:13:31,526 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:13:41,669 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:41,790 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:43,796 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:13:50,940 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:50,940 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = Position= 20000 Force = %forceleft%
+2024-03-25 16:13:52,473 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:52,473 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = Position= 40000 Force = %forceleft%
+2024-03-25 16:13:54,031 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:54,031 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = Position= 60000 Force = %forceleft%
+2024-03-25 16:13:55,574 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:55,574 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = Position= 80000 Force = %forceleft%
+2024-03-25 16:13:57,119 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:57,119 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = Position= 100000 Force = %forceleft%
+2024-03-25 16:13:57,586 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:57,586 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = Position= 102000 Force = %forceleft%
+2024-03-25 16:13:58,026 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:58,026 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = Position= 104000 Force = %forceleft%
+2024-03-25 16:13:58,484 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:58,484 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = Position= 106000 Force = %forceleft%
+2024-03-25 16:13:58,931 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:58,931 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = Position= 108000 Force = %forceleft%
+2024-03-25 16:13:59,376 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:59,376 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = Position= 110000 Force = %forceleft%
+2024-03-25 16:13:59,824 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:13:59,824 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = Position= 112000 Force = %forceleft%
+2024-03-25 16:14:00,280 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:00,280 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = Position= 114000 Force = %forceleft%
+2024-03-25 16:14:00,726 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:00,726 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = Position= 116000 Force = %forceleft%
+2024-03-25 16:14:01,172 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:01,172 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = Position= 118000 Force = %forceleft%
+2024-03-25 16:14:01,615 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:01,615 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = Position= 120000 Force = %forceleft%
+2024-03-25 16:14:02,077 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:02,077 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = Position= 122000 Force = %forceleft%
+2024-03-25 16:14:02,551 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:02,552 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = Position= 124000 Force = %forceleft%
+2024-03-25 16:14:03,006 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:03,006 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = Position= 126000 Force = %forceleft%
+2024-03-25 16:14:03,458 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:03,458 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = Position= 128000 Force = %forceleft%
+2024-03-25 16:14:03,894 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:03,894 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = Position= 130000 Force = %forceleft%
+2024-03-25 16:14:04,359 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:14:04,359 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = Position= 132000 Force = %forceleft%
+2024-03-25 16:14:57,724 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:15:04,866 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 7.56
+2024-03-25 16:15:06,395 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 17.6
+2024-03-25 16:15:07,931 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 19.98
+2024-03-25 16:15:09,465 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 23.07
+2024-03-25 16:15:10,999 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 25.03
+2024-03-25 16:15:11,462 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 25.21
+2024-03-25 16:15:11,915 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 25.45
+2024-03-25 16:15:12,369 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 25.88
+2024-03-25 16:15:12,823 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 26.53
+2024-03-25 16:15:13,268 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 26.97
+2024-03-25 16:15:13,732 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 27.57
+2024-03-25 16:15:14,183 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 27.99
+2024-03-25 16:15:14,635 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 27.85
+2024-03-25 16:15:15,084 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 30.48
+2024-03-25 16:15:15,534 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 28.57
+2024-03-25 16:15:15,992 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 51.59
+2024-03-25 16:15:16,446 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 76.21
+2024-03-25 16:15:16,896 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 93.79
+2024-03-25 16:15:17,355 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 100.37
+2024-03-25 16:15:17,813 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 100.31
+2024-03-25 16:15:18,273 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 100.75
+2024-03-25 16:15:18,733 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 100.45
+2024-03-25 16:17:47,369 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:21:00,796 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:21:34,909 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:35,020 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:36,981 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:21:44,153 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:44,153 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = Position= 20000 Force = %forceleft%
+2024-03-25 16:21:45,700 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:45,700 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = Position= 40000 Force = %forceleft%
+2024-03-25 16:21:47,239 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:47,239 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = Position= 60000 Force = %forceleft%
+2024-03-25 16:21:48,782 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:48,782 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = Position= 80000 Force = %forceleft%
+2024-03-25 16:21:50,338 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:50,338 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = Position= 100000 Force = %forceleft%
+2024-03-25 16:21:50,787 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:50,787 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = Position= 102000 Force = %forceleft%
+2024-03-25 16:21:51,246 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:51,246 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = Position= 104000 Force = %forceleft%
+2024-03-25 16:21:51,708 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:51,709 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = Position= 106000 Force = %forceleft%
+2024-03-25 16:21:52,143 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:52,143 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = Position= 108000 Force = %forceleft%
+2024-03-25 16:21:52,590 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:52,590 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = Position= 110000 Force = %forceleft%
+2024-03-25 16:21:53,051 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:53,051 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = Position= 112000 Force = %forceleft%
+2024-03-25 16:21:53,494 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:53,494 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = Position= 114000 Force = %forceleft%
+2024-03-25 16:21:53,955 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:53,955 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = Position= 116000 Force = %forceleft%
+2024-03-25 16:21:54,413 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:54,413 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = Position= 118000 Force = %forceleft%
+2024-03-25 16:21:54,857 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:54,857 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = Position= 120000 Force = %forceleft%
+2024-03-25 16:21:55,317 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:55,317 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = Position= 122000 Force = %forceleft%
+2024-03-25 16:21:55,775 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:55,775 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = Position= 124000 Force = %forceleft%
+2024-03-25 16:21:56,223 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:56,223 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = Position= 126000 Force = %forceleft%
+2024-03-25 16:21:56,676 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:56,676 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = Position= 128000 Force = %forceleft%
+2024-03-25 16:21:57,134 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:57,134 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = Position= 130000 Force = %forceleft%
+2024-03-25 16:21:57,593 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:21:57,593 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = Position= 132000 Force = %forceleft%
+2024-03-25 16:25:04,249 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:25:28,085 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:28,208 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:30,141 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:25:37,254 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:37,254 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = Position= 20000 Force = %forceleft%
+2024-03-25 16:25:38,803 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:38,803 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = Position= 40000 Force = %forceleft%
+2024-03-25 16:25:40,341 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:40,341 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = Position= 60000 Force = %forceleft%
+2024-03-25 16:25:41,881 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:41,881 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = Position= 80000 Force = %forceleft%
+2024-03-25 16:25:43,438 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:43,438 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = Position= 100000 Force = %forceleft%
+2024-03-25 16:25:43,879 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:43,879 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = Position= 102000 Force = %forceleft%
+2024-03-25 16:25:44,316 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:44,316 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = Position= 104000 Force = %forceleft%
+2024-03-25 16:25:44,776 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:44,776 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = Position= 106000 Force = %forceleft%
+2024-03-25 16:25:45,218 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:45,218 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = Position= 108000 Force = %forceleft%
+2024-03-25 16:25:45,678 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:45,678 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = Position= 110000 Force = %forceleft%
+2024-03-25 16:25:46,119 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:46,119 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = Position= 112000 Force = %forceleft%
+2024-03-25 16:25:46,561 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:46,561 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = Position= 114000 Force = %forceleft%
+2024-03-25 16:25:47,013 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:47,019 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = Position= 116000 Force = %forceleft%
+2024-03-25 16:25:47,461 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:47,461 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = Position= 118000 Force = %forceleft%
+2024-03-25 16:25:47,910 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:47,910 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = Position= 120000 Force = %forceleft%
+2024-03-25 16:25:48,354 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:48,354 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = Position= 122000 Force = %forceleft%
+2024-03-25 16:25:48,795 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:48,795 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = Position= 124000 Force = %forceleft%
+2024-03-25 16:25:49,253 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:49,253 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = Position= 126000 Force = %forceleft%
+2024-03-25 16:25:49,710 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:49,710 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = Position= 128000 Force = %forceleft%
+2024-03-25 16:25:50,169 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:50,169 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = Position= 130000 Force = %forceleft%
+2024-03-25 16:25:50,629 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:25:50,629 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = Position= 132000 Force = %forceleft%
+2024-03-25 16:27:00,499 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:27:07,633 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 10.03
+2024-03-25 16:27:09,156 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 17.73
+2024-03-25 16:27:10,689 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 20.52
+2024-03-25 16:27:12,238 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 23.12
+2024-03-25 16:27:13,778 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 25.57
+2024-03-25 16:27:14,222 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 25.53
+2024-03-25 16:27:14,683 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 25.91
+2024-03-25 16:27:15,126 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 26.47
+2024-03-25 16:27:15,588 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 26.89
+2024-03-25 16:27:16,034 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 27.38
+2024-03-25 16:27:16,497 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 27.21
+2024-03-25 16:27:16,953 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 28.15
+2024-03-25 16:27:17,394 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 39.89
+2024-03-25 16:27:17,853 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 67.81
+2024-03-25 16:27:18,306 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 87.73
+2024-03-25 16:27:18,787 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 99.84
+2024-03-25 16:27:19,235 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 100.12
+2024-03-25 16:27:19,691 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 100.1
+2024-03-25 16:27:20,149 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 100.39
+2024-03-25 16:27:20,593 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 100.09
+2024-03-25 16:27:21,052 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 100.49
+2024-03-25 16:27:21,509 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 100.25
+2024-03-25 16:32:18,174 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:32:46,083 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:32:46,181 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:32:48,126 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:32:55,245 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 4.74
+2024-03-25 16:32:56,764 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 6.67
+2024-03-25 16:32:58,299 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 5.78
+2024-03-25 16:32:59,838 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 5.88
+2024-03-25 16:33:01,387 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 5.76
+2024-03-25 16:33:01,835 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 7.64
+2024-03-25 16:33:02,291 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 6.6
+2024-03-25 16:33:02,739 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 5.88
+2024-03-25 16:33:03,182 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 7.32
+2024-03-25 16:33:03,639 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 5.79
+2024-03-25 16:33:04,099 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 5.92
+2024-03-25 16:33:04,539 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 9.16
+2024-03-25 16:33:04,998 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 9.18
+2024-03-25 16:33:05,455 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 5.86
+2024-03-25 16:33:05,899 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 5.67
+2024-03-25 16:33:06,356 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 7.16
+2024-03-25 16:33:06,800 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 6.63
+2024-03-25 16:33:07,255 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 6.65
+2024-03-25 16:33:07,699 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 7.25
+2024-03-25 16:33:08,141 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 6.57
+2024-03-25 16:33:08,600 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 7.46
+2024-03-25 16:33:59,374 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:34:06,526 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 6.44
+2024-03-25 16:34:08,076 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 11.77
+2024-03-25 16:34:09,611 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 18.12
+2024-03-25 16:34:11,154 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 20.47
+2024-03-25 16:34:12,693 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 22.72
+2024-03-25 16:34:13,165 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 22.69
+2024-03-25 16:34:13,624 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 23.43
+2024-03-25 16:34:14,078 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 23.65
+2024-03-25 16:34:14,535 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 23.94
+2024-03-25 16:34:15,006 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 23.86
+2024-03-25 16:34:15,461 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 23.96
+2024-03-25 16:34:15,919 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 24.39
+2024-03-25 16:34:16,378 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 24.67
+2024-03-25 16:34:16,849 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 24.93
+2024-03-25 16:34:17,298 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 25.99
+2024-03-25 16:34:17,754 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 26.65
+2024-03-25 16:34:18,211 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 27.38
+2024-03-25 16:34:18,684 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 27.81
+2024-03-25 16:34:19,157 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 28.24
+2024-03-25 16:34:19,629 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 28.65
+2024-03-25 16:34:20,086 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 29.18
+2024-03-25 16:34:20,543 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 29.3
+2024-03-25 16:38:55,856 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:39:12,006 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:39:12,104 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:39:14,117 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:39:21,250 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 1.93
+2024-03-25 16:39:22,786 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 5.21
+2024-03-25 16:39:24,319 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 4.03
+2024-03-25 16:39:25,880 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 9.69
+2024-03-25 16:39:27,427 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 5.61
+2024-03-25 16:39:27,874 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 4.5
+2024-03-25 16:39:28,326 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 8.21
+2024-03-25 16:39:28,763 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 8.92
+2024-03-25 16:39:29,208 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 9.56
+2024-03-25 16:39:29,658 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 17.64
+2024-03-25 16:39:30,105 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 21.4
+2024-03-25 16:39:30,551 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 22.49
+2024-03-25 16:39:30,997 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 19.05
+2024-03-25 16:39:31,446 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 14.82
+2024-03-25 16:39:31,892 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 8.99
+2024-03-25 16:39:32,344 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 6.47
+2024-03-25 16:39:32,792 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 6.45
+2024-03-25 16:39:33,233 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 5.09
+2024-03-25 16:39:33,688 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 6.2
+2024-03-25 16:39:34,131 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 10.62
+2024-03-25 16:39:34,577 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 10.39
+2024-03-25 16:39:34,582 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 10.39
+2024-03-25 16:39:34,588 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 10.39
+2024-03-25 16:39:34,599 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 10.39
+2024-03-25 16:39:59,282 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:40:09,102 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:40:09,211 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:40:11,208 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:40:18,316 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 1.93
+2024-03-25 16:40:19,846 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 14.25
+2024-03-25 16:40:21,381 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 20.41
+2024-03-25 16:40:22,904 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 26.3
+2024-03-25 16:40:24,435 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 28.48
+2024-03-25 16:40:24,882 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 29.5
+2024-03-25 16:40:25,328 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 29.58
+2024-03-25 16:40:25,793 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 29.34
+2024-03-25 16:40:26,234 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 30.64
+2024-03-25 16:40:26,686 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 30.48
+2024-03-25 16:40:27,132 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 31.45
+2024-03-25 16:40:27,568 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 31.45
+2024-03-25 16:40:28,012 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 32.48
+2024-03-25 16:40:28,464 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 33.08
+2024-03-25 16:40:28,903 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 34.6
+2024-03-25 16:40:29,346 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 34.72
+2024-03-25 16:40:29,804 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 34.22
+2024-03-25 16:40:30,246 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 35.01
+2024-03-25 16:40:30,686 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 35.94
+2024-03-25 16:40:31,144 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 36.56
+2024-03-25 16:40:31,586 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 41.54
+2024-03-25 16:40:31,592 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 41.54
+2024-03-25 16:40:31,598 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 41.54
+2024-03-25 16:40:31,602 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 41.54
+2024-03-25 16:42:49,622 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-25 16:42:56,557 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:42:56,681 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-25 16:42:58,684 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:43:05,816 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 3.48
+2024-03-25 16:43:07,360 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 18.2
+2024-03-25 16:43:08,907 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 23.02
+2024-03-25 16:43:10,435 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 30.37
+2024-03-25 16:43:11,968 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 29.1
+2024-03-25 16:43:12,412 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 30.43
+2024-03-25 16:43:12,862 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 30.3
+2024-03-25 16:43:13,316 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 31.75
+2024-03-25 16:43:13,758 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 32.97
+2024-03-25 16:43:14,197 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 31.4
+2024-03-25 16:43:14,655 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 33.11
+2024-03-25 16:43:15,110 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 32.41
+2024-03-25 16:43:15,559 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 33.39
+2024-03-25 16:43:16,016 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 33.9
+2024-03-25 16:43:16,471 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 34.19
+2024-03-25 16:43:16,917 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 34.42
+2024-03-25 16:43:17,369 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 35.13
+2024-03-25 16:43:17,819 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 35.42
+2024-03-25 16:43:18,265 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 36.16
+2024-03-25 16:43:18,709 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 36.75
+2024-03-25 16:43:19,158 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 52.83
+2024-03-25 16:43:19,613 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 80.65
+2024-03-25 16:43:20,060 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 100.7
+2024-03-25 16:43:20,529 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 113.75
+2024-03-25 16:43:20,973 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 122.78
+2024-03-25 16:43:21,434 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 123.27
+2024-03-25 16:44:02,697 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-25 16:44:09,813 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 5.83
+2024-03-25 16:44:11,346 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 10.27
+2024-03-25 16:44:12,902 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 18.09
+2024-03-25 16:44:14,428 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 20.27
+2024-03-25 16:44:15,986 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 22.03
+2024-03-25 16:44:16,439 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 22.27
+2024-03-25 16:44:16,937 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 22.49
+2024-03-25 16:44:17,378 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 22.87
+2024-03-25 16:44:17,850 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 23.23
+2024-03-25 16:44:18,316 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 23.45
+2024-03-25 16:44:18,777 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 23.63
+2024-03-25 16:44:19,234 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 23.9
+2024-03-25 16:44:19,706 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 24.15
+2024-03-25 16:44:20,164 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 24.99
+2024-03-25 16:44:20,628 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 25.55
+2024-03-25 16:44:21,094 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 26.07
+2024-03-25 16:44:21,549 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 26.62
+2024-03-25 16:44:21,999 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 27.47
+2024-03-25 16:44:22,458 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 27.37
+2024-03-25 16:44:22,905 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 27.79
+2024-03-25 16:44:23,366 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 27.83
+2024-03-25 16:44:23,826 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 180000 Force = 28.67
+2024-03-26 11:01:23,050 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-26 11:02:04,167 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-26 11:02:04,246 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-26 11:02:06,345 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-26 11:02:13,468 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 4.72
+2024-03-26 11:02:15,011 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 15.77
+2024-03-26 11:02:16,551 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 23.18
+2024-03-26 11:02:18,079 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 29.39
+2024-03-26 11:02:19,616 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 29.14
+2024-03-26 11:02:20,071 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 29.55
+2024-03-26 11:02:20,515 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 29.85
+2024-03-26 11:02:20,970 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 30.27
+2024-03-26 11:02:21,396 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 33.29
+2024-03-26 11:02:21,838 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 32.09
+2024-03-26 11:02:22,296 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 32.13
+2024-03-26 11:02:22,737 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 32.38
+2024-03-26 11:02:23,165 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 32.9
+2024-03-26 11:02:23,623 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 33.3
+2024-03-26 11:02:24,080 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 34.09
+2024-03-26 11:02:24,524 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 34.5
+2024-03-26 11:02:24,961 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 35.35
+2024-03-26 11:02:25,417 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 35.4
+2024-03-26 11:02:25,875 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 35.85
+2024-03-26 11:02:26,328 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 37.23
+2024-03-26 11:02:26,783 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 51.3
+2024-03-26 11:02:27,236 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 80.68
+2024-03-26 11:02:27,694 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 100.21
+2024-03-26 11:02:28,139 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 112.9
+2024-03-26 11:02:28,597 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 122.97
+2024-03-26 11:02:29,039 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 123.75
+2024-03-26 11:03:31,462 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-26 11:03:38,582 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 5.88
+2024-03-26 11:03:40,113 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 9.01
+2024-03-26 11:03:41,643 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 17.6
+2024-03-26 11:03:43,180 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 19.95
+2024-03-26 11:03:44,728 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 22.66
+2024-03-26 11:03:45,172 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 22.91
+2024-03-26 11:03:45,640 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 23.16
+2024-03-26 11:03:46,091 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 23.09
+2024-03-26 11:03:46,532 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 23.36
+2024-03-26 11:03:46,992 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 23.42
+2024-03-26 11:03:47,448 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 23.53
+2024-03-26 11:03:47,919 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 23.85
+2024-03-26 11:03:48,378 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 24.03
+2024-03-26 11:03:48,832 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 24.19
+2024-03-26 11:03:49,288 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 25.28
+2024-03-26 11:03:49,744 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 25.58
+2024-03-26 11:03:50,204 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 25.92
+2024-03-26 11:03:50,646 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 26.78
+2024-03-26 11:03:51,105 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 27.05
+2024-03-26 11:03:51,532 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 27.55
+2024-03-26 11:03:51,993 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 27.69
+2024-03-26 11:03:52,435 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 28.07
+2024-03-26 11:03:52,894 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 32.35
+2024-03-26 11:03:53,351 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 62.21
+2024-03-26 11:03:53,810 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 83.81
+2024-03-26 11:03:54,251 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 98.62
+2024-03-26 14:00:00,928 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-26 14:01:44,995 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-26 14:04:00,182 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-26 14:04:52,829 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-26 14:04:52,872 [1] ERROR StepperWF.MacroRunner - SN 82464 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-26 14:04:54,955 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-26 14:05:02,071 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 5.12
+2024-03-26 14:05:03,612 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 16.54
+2024-03-26 14:05:05,152 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 21.48
+2024-03-26 14:05:06,679 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 26.39
+2024-03-26 14:05:08,221 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 28.72
+2024-03-26 14:05:08,741 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 28.93
+2024-03-26 14:05:09,181 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 30.04
+2024-03-26 14:05:09,636 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 30.39
+2024-03-26 14:05:10,092 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 32.41
+2024-03-26 14:05:10,547 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 31.45
+2024-03-26 14:05:10,987 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 32.88
+2024-03-26 14:05:11,427 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 32.56
+2024-03-26 14:05:11,889 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 32.92
+2024-03-26 14:05:12,337 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 33.7
+2024-03-26 14:05:12,809 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 35.41
+2024-03-26 14:05:13,266 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 34.81
+2024-03-26 14:05:13,722 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 35.21
+2024-03-26 14:05:14,194 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 35.09
+2024-03-26 14:05:14,649 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 36.62
+2024-03-26 14:05:15,096 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 37.81
+2024-03-26 14:05:15,544 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 43.66
+2024-03-26 14:05:15,970 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 80.52
+2024-03-26 14:05:16,441 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 98.63
+2024-03-26 14:05:16,881 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 113.37
+2024-03-26 14:05:17,337 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 122.63
+2024-03-26 14:05:17,794 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 123
+2024-03-26 14:05:44,150 [1] ERROR StepperWF.MacroRunner - SN 82464 Starting stamp test
+2024-03-26 14:05:51,256 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 20000 Force = 5.47
+2024-03-26 14:05:52,787 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 40000 Force = 6.4
+2024-03-26 14:05:54,319 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 60000 Force = 18.14
+2024-03-26 14:05:55,859 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 80000 Force = 20.51
+2024-03-26 14:05:57,384 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 100000 Force = 22.79
+2024-03-26 14:05:57,841 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 102000 Force = 22.93
+2024-03-26 14:05:58,281 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 104000 Force = 23.29
+2024-03-26 14:05:58,745 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 106000 Force = 23.76
+2024-03-26 14:05:59,225 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 108000 Force = 23.92
+2024-03-26 14:05:59,681 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 110000 Force = 23.91
+2024-03-26 14:06:00,106 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 112000 Force = 24.35
+2024-03-26 14:06:00,546 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 114000 Force = 24.58
+2024-03-26 14:06:00,986 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 116000 Force = 25.19
+2024-03-26 14:06:01,441 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 118000 Force = 25.59
+2024-03-26 14:06:01,897 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 120000 Force = 25.95
+2024-03-26 14:06:02,338 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 122000 Force = 26.27
+2024-03-26 14:06:02,793 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 124000 Force = 26.61
+2024-03-26 14:06:03,233 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 126000 Force = 27.3
+2024-03-26 14:06:03,688 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 128000 Force = 26.92
+2024-03-26 14:06:04,129 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 130000 Force = 28.14
+2024-03-26 14:06:04,585 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 132000 Force = 28.35
+2024-03-26 14:06:05,040 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 134000 Force = 28.23
+2024-03-26 14:06:05,480 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 136000 Force = 28.77
+2024-03-26 14:06:05,952 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 138000 Force = 29.54
+2024-03-26 14:06:06,392 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 140000 Force = 33.53
+2024-03-26 14:06:06,833 [1] ERROR StepperWF.MacroRunner - SN 82464 Position= 142000 Force = 64.16
+2024-03-26 14:51:07,063 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...
+2024-03-26 15:50:55,518 [1] INFO StepperWF.Program - SN82465 StepperDiag is starting...
+2024-03-26 15:53:34,997 [1] INFO StepperWF.Program - SN82465 StepperDiag is starting...
+2024-03-26 15:55:26,925 [1] ERROR StepperWF.MacroRunner - SN 82465 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-26 15:55:26,988 [1] ERROR StepperWF.MacroRunner - SN 82465 Unknown variable:StepperWF.MacroRunner+MyRef`1[System.String]
+2024-03-26 15:55:28,487 [1] ERROR StepperWF.MacroRunner - SN 82465 Starting stamp test
+2024-03-26 15:55:35,617 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 20000 Force = -4.38
+2024-03-26 15:55:37,159 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 40000 Force = -5.3
+2024-03-26 15:55:38,708 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 60000 Force = 9.2
+2024-03-26 15:55:40,261 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 80000 Force = 14.88
+2024-03-26 15:55:41,800 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 100000 Force = 22.52
+2024-03-26 15:55:42,255 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 102000 Force = 18.86
+2024-03-26 15:55:42,713 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 104000 Force = 18.92
+2024-03-26 15:55:43,172 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 106000 Force = 18.47
+2024-03-26 15:55:43,624 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 108000 Force = 18.68
+2024-03-26 15:55:44,080 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 110000 Force = 19.29
+2024-03-26 15:55:44,534 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 112000 Force = 19.19
+2024-03-26 15:55:44,990 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 114000 Force = 22.03
+2024-03-26 15:55:45,444 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 116000 Force = 23.76
+2024-03-26 15:55:45,899 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 118000 Force = 26.72
+2024-03-26 15:55:46,354 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 120000 Force = 18.64
+2024-03-26 15:55:46,809 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 122000 Force = 21.05
+2024-03-26 15:55:47,264 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 124000 Force = 22.33
+2024-03-26 15:55:47,719 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 126000 Force = 21.69
+2024-03-26 15:55:48,175 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 128000 Force = 22.91
+2024-03-26 15:55:48,629 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 130000 Force = 23.09
+2024-03-26 15:55:49,087 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 132000 Force = 23.53
+2024-03-26 15:55:49,540 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 134000 Force = 24.12
+2024-03-26 15:55:49,996 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 136000 Force = 24.82
+2024-03-26 15:55:50,452 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 138000 Force = 46.55
+2024-03-26 15:55:50,908 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 140000 Force = 89.36
+2024-03-26 15:55:51,378 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 142000 Force = 104
+2024-03-26 15:56:30,629 [1] ERROR StepperWF.MacroRunner - SN 82465 Starting stamp test
+2024-03-26 15:56:37,715 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 20000 Force = 19.05
+2024-03-26 15:56:39,238 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 40000 Force = 19.12
+2024-03-26 15:56:40,780 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 60000 Force = 24.78
+2024-03-26 15:56:42,303 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 80000 Force = 27.38
+2024-03-26 15:56:43,840 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 100000 Force = 29.97
+2024-03-26 15:56:44,294 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 102000 Force = 30.1
+2024-03-26 15:56:44,733 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 104000 Force = 30.44
+2024-03-26 15:56:45,189 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 106000 Force = 30.6
+2024-03-26 15:56:45,644 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 108000 Force = 30.72
+2024-03-26 15:56:46,099 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 110000 Force = 30.96
+2024-03-26 15:56:46,554 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 112000 Force = 31.34
+2024-03-26 15:56:47,010 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 114000 Force = 31.29
+2024-03-26 15:56:47,473 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 116000 Force = 31.75
+2024-03-26 15:56:47,911 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 118000 Force = 32.14
+2024-03-26 15:56:48,364 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 120000 Force = 32.53
+2024-03-26 15:56:48,835 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 122000 Force = 32.72
+2024-03-26 15:56:49,289 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 124000 Force = 32.64
+2024-03-26 15:56:49,745 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 126000 Force = 33.19
+2024-03-26 15:56:50,200 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 128000 Force = 33.46
+2024-03-26 15:56:50,655 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 130000 Force = 33.85
+2024-03-26 15:56:51,110 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 132000 Force = 34.19
+2024-03-26 15:56:51,565 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 134000 Force = 34.79
+2024-03-26 15:56:52,020 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 136000 Force = 35.4
+2024-03-26 15:56:52,459 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 138000 Force = 36.02
+2024-03-26 15:56:52,915 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 140000 Force = 36.69
+2024-03-26 15:56:53,371 [1] ERROR StepperWF.MacroRunner - SN 82465 Position= 142000 Force = 49.6
+2024-03-26 16:03:58,104 [1] INFO StepperWF.Program - SN82465 StepperDiag is starting...
+2024-03-26 16:04:16,309 [1] INFO StepperWF.Program - SN82465 StepperDiag is starting...
+2024-03-26 16:06:45,737 [1] INFO StepperWF.Program - SN82465 StepperDiag is starting...
+2024-03-26 16:08:11,289 [1] INFO StepperWF.Program - SN82465 StepperDiag is starting...
+2024-03-26 16:08:51,640 [1] INFO StepperWF.Program - SN82465 StepperDiag is starting...
+2024-03-26 16:10:17,202 [1] INFO StepperWF.Program - SN82464 StepperDiag is starting...

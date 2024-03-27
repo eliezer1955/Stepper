@@ -27,13 +27,16 @@ for line in file_contents:
 if startline <0:
     print("stamp test not found")
     exit()
+   
 #isolate date/time
+
 eofdate=file_contents[startline].find("[")
 dateTime=file_contents[startline][0:eofdate]
 
 #build lists of position, force
 tgt1="Position= "
 tgt2="Force = "
+tgt3="SN "
 sampleno=0
 x=[]
 y=[]
@@ -45,6 +48,11 @@ for i in range(startline+1,len(file_contents)):
     index1=file_contents[i].find(tgt2)
     if index1<0:
         continue;
+    index3=file_contents[i].find(tgt3)
+    for k in range(index3+len(tgt3)):
+        if file_contents[i][k] == " ":
+            break;
+    sn=file_contents[i][index3+len(tgt3):index3+len(tgt3)+k]
     force=myfloat(file_contents[i][index1+len(tgt2):])
     x.append(position)
     y.append(force)
@@ -58,7 +66,7 @@ expectedx=[20000,135000,140000]
 expectedy=[12,30,100]
 ax.plot(expectedx,expectedy,linewidth=12,color="green",alpha=0.4)
 ax.plot(x,y)
-ax.set_title(dateTime)
+ax.set_title(dateTime+"_"+sn)
 ax.set(xlabel='Position [steps]',ylabel='Force [au]')
 plt.subplots_adjust(left=0.15)
 plt.subplots_adjust(bottom=0.25)
@@ -68,7 +76,7 @@ fname=fname.replace(" ","_")
 fname=fname.replace(":","")
 fname=fname.replace(",","_")
 #save plot to file
-plt.savefig(fname, format="png", bbox_inches='tight')
+plt.savefig(fname+"_SN_"+sn, format="png", bbox_inches='tight')
 
 plt.show()
     

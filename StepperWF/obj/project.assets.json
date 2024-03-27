@@ -9,19 +9,27 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -33,19 +41,59 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-arm64": {
+      "log4net/2.0.15": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -57,19 +105,27 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     },
@@ -81,19 +137,27 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -195,6 +259,11 @@
         "net472": {
           "projectReferences": {}
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -213,6 +282,9 @@
     },
     "runtimes": {
       "win": {
+        "#import": []
+      },
+      "win-arm64": {
         "#import": []
       },
       "win-x64": {

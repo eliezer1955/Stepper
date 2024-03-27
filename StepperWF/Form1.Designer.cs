@@ -268,6 +268,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Crimson;
+            this.button4.ForeColor = System.Drawing.Color.Coral;
             this.button4.Location = new System.Drawing.Point(651, 682);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(156, 105);

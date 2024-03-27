@@ -1,0 +1,148 @@
+/9G-320.4R# set weight sensor offset
+/9H1.10R# set weight sensor offset
+/6A,1000R#turn on left LED
+EXECUTE,C:\Users\S2\source\repos\new\RoboClawWF\bin\x64\Debug\WindowsApplication.exe RotateSlow.tst.txt
+SLEEP,1000
+EXECUTE,C:\Users\S2\source\repos\StepperWF1\StepperWF\bin\Debug\StepperWF.exe GrinderDown.txt
+SLEEP,5000
+EXECUTE,C:\Users\S2\source\repos\new\RoboClawWF\bin\x64\Debug\WindowsApplication.exe stop.tst.txt
+MONITORWEIGHT,10000
+SNAPREFERENCE,1
+ALERT, Add liquid and hit YES
+SNAPMEASURE,1
+/1ZR#Initialize
+/2ZR#Initialize
+/3ZR#Initialize
+/4ZR#Initialize
+/5ZR#Initialize
+WAIT,1
+WAIT,2
+WAIT,3
+WAIT,4
+WAIT,5
+ALERT,Initialization complete!
+
+:CONFIGUREVALVES
+#Set valve to 6-way
+/2U7R
+/3U7R
+/4U7R
+:TESTVALVES
+ALERT,Please look at right middle valve; it should move after pressing continue
+/2ZR#Initialize
+WAIT,2
+/2ZR#Initialize
+WAIT,2
+/2ZR#Initialize
+WAIT,2
+/2ZR#Initialize
+WAIT,2
+/2ZR#Initialize
+WAIT,2
+/2ZR#Initialize
+WAIT,2
+/2ZR#Initialize
+WAIT,2
+/2ZR#Initialize
+WAIT,2
+ALERT, Valve 2 test OK?
+IFRETURNIS,No,LOGERROR,Valve 2 test failure
+
+ALERT,Please look at right top valve; it should move after pressing 'YES'
+/3ZR
+WAIT,3
+/3ZR
+WAIT,3
+/3ZR
+WAIT,3
+/3ZR 
+WAIT,3
+/3ZR
+WAIT,3
+/3ZR
+WAIT,3
+/3ZR
+WAIT,3
+/3ZR
+WAIT,3
+
+ALERT, Valve 3 test OK?
+IFRETURNIS,No,LOGERROR,Valve 3 test failure
+ALERT,Please look at left top valve; it should move after pressing 'YES'
+/4ZR
+WAIT,4
+/4ZR
+WAIT,4
+/4ZR
+WAIT,4
+/4ZR
+WAIT,4
+/4ZR
+WAIT,4
+/4ZR
+WAIT,4
+/4ZR
+WAIT,4
+:TESTPUMPS
+ALERT, Valve 4 test OK?
+IFRETURNIS,No,LOGERROR,Valve 4 test failure
+ALERT,Please Look at right Syringe; it should move after pressing 'YES'
+/1I3R
+WAIT,1
+/1A3000R
+WAIT,1
+/1A0R
+WAIT,1
+/1A3000R
+WAIT,1
+ALERT, Right Syringe test OK?
+IFRETURNIS,No,LOGERROR,Right Syringe test failure
+ALERT,Please Look at left Syringe; it should move after pressing 'YES'
+/5I3R
+WAIT,5
+/5A3000R
+WAIT,5
+/5A0R
+WAIT,5
+/5A3000R
+WAIT,5
+ALERT, Left Syringe test OK?
+IFRETURNIS,No,LOGERROR,Left Syringe test failure
+
+#Pull test
+/1v300R#set start velociry
+/1V300R#set Top Velocity
+/5v300R#set start velocity
+/5V300R#set top velocity
+
+#Set valve input to 3
+/1I3R
+/5I3R
+#Wait for completion
+WAIT,1
+WAIT,5
+ALERT,aspirating
+#aspirate
+/1A3000R
+/5A3000R
+#Wait for completion
+WAIT,1
+WAIT,5
+
+#Move valves to position 6
+/1I6R
+/5I6R
+
+#Wait for completion
+WAIT,1
+WAIT,5
+ALERT,dispensing
+#dispense
+/1A0R
+/5A0R
+
+#Wait for completion
+WAIT,1
+WAIT,5
+ALERT,Success
+:END

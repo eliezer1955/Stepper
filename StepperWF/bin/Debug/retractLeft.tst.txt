@@ -1,0 +1,4 @@
+SetCurrentAxis,1
+InitializeAxis
+WAIT,1
+END,0

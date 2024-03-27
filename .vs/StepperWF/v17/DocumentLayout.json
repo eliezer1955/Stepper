@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\S2\\source\\repos\\StepperWF1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|c:\\users\\s2\\source\\repos\\stepperwf1\\stepperwf\\macrorunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\macrorunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|C:\\Users\\S2\\source\\repos\\StepperWF1\\stepperwf\\stepper2.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\stepper2.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|C:\\Users\\S2\\source\\repos\\StepperWF1\\stepperwf\\stepper.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\stepper.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|c:\\users\\s2\\source\\repos\\stepperwf1\\stepperwf\\rotateslow.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\rotateslow.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|C:\\Users\\S2\\source\\repos\\StepperWF1\\stepperwf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|C:\\Users\\S2\\source\\repos\\StepperWF1\\stepperwf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|C:\\Users\\S2\\source\\repos\\StepperWF1\\stepperwf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\bin\\Debug\\GrinderDown.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StepperWF\\bin\\Debug\\GrinderDown.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\bin\\Debug\\slow.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StepperWF\\bin\\Debug\\slow.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|C:\\Users\\S2\\source\\repos\\StepperWF1\\stepperwf\\plotstamptest.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\plotstamptest.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|C:\\Users\\S2\\source\\repos\\StepperWF1\\stepperwf\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|C:\\Users\\S2\\source\\repos\\StepperWF1\\stepperwf\\bin\\debug\\stepper2.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D054064-B748-4E0B-BE43-82C0B637C1F0}|StepperWF\\StepperWF.csproj|solutionrelative:stepperwf\\bin\\debug\\stepper2.tst.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "stepper2.tst.txt",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\stepper2.tst.txt",
+              "RelativeDocumentMoniker": "StepperWF\\stepper2.tst.txt",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\stepper2.tst.txt",
+              "RelativeToolTip": "StepperWF\\stepper2.tst.txt",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAiwMAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-02-17T00:08:56.112Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MacroRunner.cs",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\MacroRunner.cs",
+              "RelativeDocumentMoniker": "StepperWF\\MacroRunner.cs",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\MacroRunner.cs",
+              "RelativeToolTip": "StepperWF\\MacroRunner.cs",
+              "ViewState": "AQIAAFQCAAAAAAAAAAAkwGgCAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T00:08:56.365Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RotateSlow.tst.txt",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\RotateSlow.tst.txt",
+              "RelativeDocumentMoniker": "StepperWF\\RotateSlow.tst.txt",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\RotateSlow.tst.txt",
+              "RelativeToolTip": "StepperWF\\RotateSlow.tst.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-25T23:16:27.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\Program.cs",
+              "RelativeDocumentMoniker": "StepperWF\\Program.cs",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\Program.cs",
+              "RelativeToolTip": "StepperWF\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAEwA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T21:13:42.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GrinderDown.txt",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\bin\\Debug\\GrinderDown.txt",
+              "RelativeDocumentMoniker": "StepperWF\\bin\\Debug\\GrinderDown.txt",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\bin\\Debug\\GrinderDown.txt",
+              "RelativeToolTip": "StepperWF\\bin\\Debug\\GrinderDown.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-04T22:18:44.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "slow.tst.txt",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\bin\\Debug\\slow.tst.txt",
+              "RelativeDocumentMoniker": "StepperWF\\bin\\Debug\\slow.tst.txt",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\bin\\Debug\\slow.tst.txt",
+              "RelativeToolTip": "StepperWF\\bin\\Debug\\slow.tst.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-04T22:18:31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stepper.tst.txt",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\stepper.tst.txt",
+              "RelativeDocumentMoniker": "StepperWF\\stepper.tst.txt",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\stepper.tst.txt",
+              "RelativeToolTip": "StepperWF\\stepper.tst.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-02-17T00:08:56.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlotStampTest.py",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\PlotStampTest.py",
+              "RelativeDocumentMoniker": "StepperWF\\PlotStampTest.py",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\PlotStampTest.py",
+              "RelativeToolTip": "StepperWF\\PlotStampTest.py",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwCwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-02-18T21:42:23.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\Form1.cs",
+              "RelativeDocumentMoniker": "StepperWF\\Form1.cs",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\Form1.cs",
+              "RelativeToolTip": "StepperWF\\Form1.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAEwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T00:08:56.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\Form1.cs",
+              "RelativeDocumentMoniker": "StepperWF\\Form1.cs",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\Form1.cs [Design]",
+              "RelativeToolTip": "StepperWF\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T00:08:56.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "StepperWF\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\Form1.Designer.cs",
+              "RelativeToolTip": "StepperWF\\Form1.Designer.cs",
+              "ViewState": "AQIAAFABAAAAAAAAAAAAAGABAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T00:08:56.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "stepper2.tst.txt",
+              "DocumentMoniker": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\bin\\Debug\\stepper2.tst.txt",
+              "RelativeDocumentMoniker": "StepperWF\\bin\\Debug\\stepper2.tst.txt",
+              "ToolTip": "C:\\Users\\S2\\source\\repos\\StepperWF1\\StepperWF\\bin\\Debug\\stepper2.tst.txt",
+              "RelativeToolTip": "StepperWF\\bin\\Debug\\stepper2.tst.txt",
+              "ViewState": "AQIAAAcAAACYhu0kBtsqwBMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-02-17T00:08:56.371Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

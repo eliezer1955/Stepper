@@ -323,6 +323,9 @@ namespace StepperWF
             changeBox( controller.parent.checkBox4, (optical & (short)0x02) );
             controller.SetControlPropertyThreadSafe( controller.parent.textBox1, "BackColor", (forceLeft < -3 || forceLeft > 6) ? System.Drawing.Color.Crimson : System.Drawing.Color.LimeGreen );
             controller.SetControlPropertyThreadSafe( controller.parent.textBox2, "BackColor", (forceLeft < -3 || forceRight > 6) ? System.Drawing.Color.Crimson : System.Drawing.Color.LimeGreen );
+
+            controller.SetControlPropertyThreadSafe( controller.parent.textBox1, "ForeColor", (forceLeft < -3 || forceLeft > 6) ? System.Drawing.Color.Yellow : System.Drawing.Color.Black );
+            controller.SetControlPropertyThreadSafe( controller.parent.textBox2, "ForeColor", (forceLeft < -3 || forceRight > 6) ? System.Drawing.Color.Yellow : System.Drawing.Color.Black );
             forceLeft = 50 + forceLeft / 2; //empirical scaling
             forceRight = 50 + forceRight / 2;
             forceLeft = Math.Min( Math.Max( forceLeft, 0 ), 100 );
